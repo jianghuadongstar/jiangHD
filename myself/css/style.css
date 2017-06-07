@@ -176,6 +176,7 @@ body {
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	min-height:925px;
+	height: 100%;
 }
 /*-- slider --*/
 .banner .rslides {
@@ -724,7 +725,6 @@ footer span.glyphicon.glyphicon-chevron-up {
 @media (max-width: 800px) {
 	.banner {
     	min-height: 600px;
-		height: 100%;
 }
 	.banner .rslides {
     height: 600px;

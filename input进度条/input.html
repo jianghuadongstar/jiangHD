@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>input进度条</title>
+    <script src="../JS/jquery-1.11.3/jquery.min.js"></script>
+    <style type="text/css">
+        html,body{
+            padding: 0;
+            margin: 0;
+            height: 100%;
+        }
+        #inp[type="range"] {
+            border-radius: 15px;
+            width: 400px;
+            -webkit-appearance: none;
+            height:20px;
+            border: hidden;
+            position: absolute;
+            top: -3px;
+            left: -3px;
+            background-color: lightgrey;
+        }
+        #test{
+            height: 20px;
+            width: 400px;
+            padding: 0;
+            border-radius: 15px;
+            border: 1px solid gainsboro;
+            display: inline-block;
+            box-sizing: border-box;
+            position: relative;
+        }
+        .box{
+            box-sizing: border-box;
+            padding: 200px 10px 0;
+            height: 100%;
+
+        }
+        .num{
+            padding: 25px 0;
+            color: blue;
+        }
+        .span{
+            color: red;
+        }
+        .text{
+            float: left;
+            height: 30px;
+            padding: 5px 10px;
+            border-radius: 10px;
+            color: blue;
+            margin: auto 15px;
+            box-sizing: border-box;
+        }
+        .btn{
+            height: 30px;
+            float: left;
+            padding: 5px 15px;
+            border-radius: 10px;
+            background-color: #00CCFF;
+            border: none;
+            color: white;
+        }
+        .init{
+            position: relative;
+            height: 35px;
+        }
+        .init span{
+            height: 30px;
+            line-height: 30px;
+            float: left;
+        }
+    </style>
+    <script>
+        $.fn.RangeSlider = function(cfg) {
+            this.sliderCfg = {
+                min: cfg && !isNaN(parseFloat(cfg.min)) ? Number(cfg.min) : null,
+                max: cfg && !isNaN(parseFloat(cfg.max)) ? Number(cfg.max) : null,
+                step: cfg && Number(cfg.step) ? cfg.step : 1,
+                callback: cfg && cfg.callback ? cfg.callback : null
+            };
+
+            var $input = $(this);
+            var min = this.sliderCfg.min;
+            var max = this.sliderCfg.max;
+            var step = this.sliderCfg.step;
+            var callback = this.sliderCfg.callback;
+
+            $input.attr('min', min)
+                    .attr('max', max)
+                    .attr('step', step);
+
+            $input.bind("input", function (e) {
+                $input.attr('value', this.value);
+                $input.css('background', 'linear-gradient(to right, #059CFA, lightgrey ' + this.value + '%, white)');
+
+                if ($.isFunction(callback)) {
+                    callback(this);
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+<div class="box">
+    <div class="num">
+        <span>当前进度为：</span><span class="span"></span>
+        <div class="init">
+            <span>设定进度：</span>
+            <textarea type="text" class="text"></textarea>
+            <button class="btn">确 定</button>
+        </div>
+    </div>
+    <div id="test">
+        <input type="range" value="0" id="inp">
+    </div>
+</div>
+<script>
+    /**
+     * 美化滑动控件，需要完成以下的五个步骤：
+     * 1 去除系统默认的样式；
+     * 2 给滑动轨道(track)添加样式；
+     * 3 给滑块(thumb)添加样式；
+     * 4 根据滑块所在位置填充进度条；
+     * 5 实现多浏览器兼容。
+     *
+     */
+
+    /**
+     * input[type=range] 的属性设置
+     * max	设置或返回滑块控件的最大值
+     * min	设置或返回滑块控件的最小值
+     * step	设置或返回每次拖动滑块控件时的递增量
+     * value	设置或返回滑块控件的 value 属性值
+     * defaultValue	设置或返回滑块控件的默认值
+     * autofocus	设置或返回滑块控件在页面加载后是否应自动获取焦点
+     *
+     */
+
+    var change = function($input) {
+        /*内容可自行定义*/
+        var inp=$("#inp");
+        var span=$(".span");
+        span.text(inp.val()+"%");
+        console.log("当前进度为："+inp.val()+"%");
+    };
+    $(".btn").click(function () {
+        var text=$(".text").val();
+        $("#inp").val(text);
+        change();
+    });
+    $('input').RangeSlider({ min: 0,   max: 100,  step: 0.5,  callback: change});
+</script>
+</body>
+</html>

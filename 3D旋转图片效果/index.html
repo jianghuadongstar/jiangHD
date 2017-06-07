@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>3D图片切片滑块旋转动画 - 站长素材</title>
+
+    <style>
+/**************************************************/
+/* INSTRUCTIONS: DRAG OVER THE IMAGE TO TWIST IT */
+/**************************************************/
+body {
+  perspective: 50em;
+  background-color: #333333;
+}
+
+.cube {
+  position: relative;
+  margin: 0em auto 0;
+  padding: 0px;
+  width: 20em;
+  height: 3.0em;
+  list-style: none;
+  transform-style: preserve-3d;
+  /*animation: ani 8s infinite linear;*/
+}
+
+.face {
+  box-sizing: border-box;
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  /*border: 1px solid #f0f0f0;*/
+  margin: -8em;
+  padding: 1.6em;
+  width: 20em;
+  height: 2em;
+  opacity: .85;
+  background: lightblue;
+  /*Creative Commons image from http://www.flickr.com/photos/37825670@N07/3562600154/sizes/z/in/photostream/ */
+  background: url(./img/meinv.jpg) -115px -900px ;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+}
+
+.face:nth-child(1) {
+  transform: translateZ(10em);
+}
+
+.face:nth-child(2) {
+  transform: rotateY(180deg) translateZ(10em);
+}
+
+.face:nth-child(3) {
+  transform: rotateY(90deg) translateZ(10em);
+}
+
+.face:nth-child(4) {
+  transform: rotateY(-90deg) translateZ(10em);
+}
+
+a {
+  color: #ccc;
+}
+
+</style>
+
+    <script src="js/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+
+<ul id="level0" class='cube'>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+</ul>
+<ul id="level1" class='cube'>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+</ul>
+<ul id="level2" class='cube'>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+</ul>
+<ul id="level3" class='cube'>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+</ul>
+<ul id="level4" class='cube'>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+</ul>
+<ul id="level5" class='cube'>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+</ul>
+<ul id="level6" class='cube'>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+</ul>
+<ul id="level7" class='cube'>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+</ul>
+<ul id="level8" class='cube'>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+</ul>
+<ul id="level9" class='cube'>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+</ul>
+<ul id="level10" class='cube'>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+</ul>
+<ul id="level11" class='cube'>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+</ul>
+<ul id="level12" class='cube'>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+<li class='face'></li>
+</ul>
+
+  <script src='js/jquery.js'></script>
+  <script src='js/TweenMax.min.js'></script>
+
+  <script src="js/index.js"></script>
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+<p>适用浏览器：360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗. 不支持IE8及以下浏览器。</p>
+<p>来源：<a href="http://sc.chinaz.com/" target="_blank">站长素材</a></p>
+</div>
+</body>
+
+</html>

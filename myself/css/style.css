@@ -827,7 +827,7 @@ footer span.glyphicon.glyphicon-chevron-up {
 
 @media (max-width: 667px) {
 	.banner-info {
-    margin: 30px 0 0 177px;
+    margin: 30px 0 0 -177px;
 }
 	.banner-info h3 {
 	font-size:35px;
@@ -845,7 +845,7 @@ footer span.glyphicon.glyphicon-chevron-up {
 
 @media (max-width: 640px) {
 	.banner-info {
-    margin: 45px 0 0 165px;
+    margin: 45px 0 0 -165px;
 }
 	.banner-info h3 {
 	padding:60px 0 10px;		
@@ -872,7 +872,7 @@ footer span.glyphicon.glyphicon-chevron-up {
 	top:-17px;
 }
 	.banner-info {
-    margin: 60px 0 0 155px;
+    margin: 60px 0 0 -155px;
 }
 }
 
@@ -884,7 +884,7 @@ footer span.glyphicon.glyphicon-chevron-up {
     height: 265px;
 }
 	.banner-info {
-    margin: 20px 0 0 140px;
+    margin: 20px 0 0 -140px;
 }
 	.content-img {
     height: 332px;
@@ -899,7 +899,7 @@ footer span.glyphicon.glyphicon-chevron-up {
 	font-size:25px;
 }	
 	.banner-info {
-    margin: 20px 0 0 97px;
+    margin: 20px 0 0 -97px;
 }
 	.content-img {
     height: 278px;
@@ -949,7 +949,7 @@ footer span.glyphicon.glyphicon-chevron-up {
 
 @media (max-width: 414px){
 	.banner-info {
-    margin: 20px 0 0 65px;
+    margin: 20px 0 0 -65px;
 }
 	.mygallery img.img-responsive {
     height: 185px;
@@ -973,7 +973,7 @@ footer span.glyphicon.glyphicon-chevron-up {
 
 @media (max-width: 384px) {
 	.banner-info {
-    margin: 20px 0 0 45px;
+    margin: 20px 0 0 -45px;
 }
 	.about-me h3.text-center {
 		font-size:23px;
@@ -1033,7 +1033,7 @@ footer span.glyphicon.glyphicon-chevron-up {
     height: 215px;
 }
 	.myportfolio p.content-text {
-    padding: 0 20px 70px;
+    padding: 0 20px -70px;
 }
 }
 

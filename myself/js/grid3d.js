@@ -56,10 +56,11 @@
 		} );
 
 		// close the content element
-		this.close.addEventListener( 'click', function() {
-			self._hideContent();
-		} );
-
+		if (this.close){
+            this.close.addEventListener( 'click', function() {
+                self._hideContent();
+            } );
+		}
 		if( this.support ) {
 			// window resize
 			window.addEventListener( 'resize', function() { self._resizeHandler(); } );

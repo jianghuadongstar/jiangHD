@@ -1,4 +1,7 @@
 
+### 摘自: https://www.w3cplus.com/blog/2103.html © w3cplus.com
+
+
 setTimeout()中回调函数中的this
 
 如果被setTimeout()推迟执行的回调函数是某个对象的方法，那么该方法中的this关键字将指向全局环境，而不是定义时所在的那个对象。

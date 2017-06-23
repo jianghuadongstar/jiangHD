@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="jq2.3.3.js"></script>
+    <style>
+        body{
+            background: #566673;
+        }
+        /*去除默认样式*/
+        input[type=range] {
+            -webkit-appearance: none;
+            width: 200px;
+            border-radius: 10px; /*这个属性设置使填充进度条时的图形为圆角*/
+        }
+        input[type=range]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+        }
+
+        .inpt{
+            background:#424e5c ;
+        }
+        /*给滑动轨道(track)添加样式*/
+        input[type=range]::-webkit-slider-runnable-track {
+            height: 15px;
+            border-radius: 10px; /*将轨道设为圆角的*/
+            background: transparent;
+
+        }
+        input[type=range]::-moz-range-progress {
+            height: 15px;
+            border-radius: 5px; /*将轨道设为圆角的*/
+        }
+        /*原始的控件获取到焦点时，会显示包裹整个控件的边框，所以还需要把边框取消。*/
+        input[type=range]:focus {
+            outline: none;
+        }
+        /*给滑块(thumb)添加样式*/
+        input[type=range]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            height: 23px;
+            width: 23px;
+            margin-top: -3px; /*使滑块超出轨道部分的偏移量相等*/
+            background: url("./D.png") no-repeat;
+            background-size: cover;
+            border-radius: 50%; /*外观设置为圆形*/
+            //box-shadow: 0 0 8px #ddd; /*添加底部阴影*/
+
+        }
+        .num{
+            text-align: center;
+            line-height: 50px;
+            display: inline-block;
+            background-color: #475462;
+            height: 50px;
+            width: 70px;
+            color: white;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+<input class="inpt" type="range" value="0"/>
+<span class="num">0</span>
+<script>
+    var change = function() {
+        /*内容可自行定义*/
+        var inp=$(".inpt");
+        var span=$(".num");
+        span.text(inp.val()*2);
+    };
+    $.fn.RangeSlider = function(cfg){
+        this.sliderCfg = {
+            min: cfg && !isNaN(parseFloat(cfg.min)) ? Number(cfg.min) : null,
+            max: cfg && !isNaN(parseFloat(cfg.max)) ? Number(cfg.max) : null,
+            step: cfg && Number(cfg.step) ? cfg.step : 1,
+            callback: cfg && cfg.callback ? cfg.callback : null
+        };
+
+        var $input = $(this);
+        console.log($input);
+        var min = this.sliderCfg.min;
+        var max = this.sliderCfg.max;
+        var step = this.sliderCfg.step;
+        var callback = this.sliderCfg.callback;
+
+        $input.attr('min', min)
+            .attr('max', max)
+            .attr('step', step);
+
+        $input.bind("input", function(e){
+            $input.attr('value', this.value);
+            $('input[type=range]::-webkit-slider-runnable-track').css("background",'transparent');
+            $input.css( 'background', 'linear-gradient(to right, #059CFA 0%, #059CFA '+this.value + '%,#424e5c ' + this.value + '%, #424e5c)' );
+
+            if ($.isFunction(callback)) {
+                callback(this);
+            }
+        });
+    };
+
+    $('.inpt').RangeSlider({ min: 0,   max: 100,  step: 1,callback: change});
+</script>
+</body>
+</html>

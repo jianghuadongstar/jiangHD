@@ -11,11 +11,14 @@
         /*去除默认样式*/
         input[type=range] {
             -webkit-appearance: none;
+            -moz-appearance: none;
+            -ms-appearance: none;
             width: 200px;
             border-radius: 10px; /*这个属性设置使填充进度条时的图形为圆角*/
         }
         input[type=range]::-webkit-slider-thumb {
             -webkit-appearance: none;
+            -moz-appearance: none;
         }
 
         .inpt{
@@ -23,6 +26,8 @@
         }
         /*给滑动轨道(track)添加样式*/
         input[type=range]::-webkit-slider-runnable-track {
+            -webkit-appearance: none;
+            -moz-appearance: none;
             height: 15px;
             border-radius: 10px; /*将轨道设为圆角的*/
             background: transparent;
@@ -34,11 +39,16 @@
         }
         /*原始的控件获取到焦点时，会显示包裹整个控件的边框，所以还需要把边框取消。*/
         input[type=range]:focus {
-            outline: none;
+            outline: 0;
+            -webkit-outline: none;
+            -moz-outline:none ;
+            -ms-outline:none;
         }
+
         /*给滑块(thumb)添加样式*/
-        input[type=range]::-webkit-slider-thumb {
+        input[type=range]::-webkit-slider-thumb{
             -webkit-appearance: none;
+            -moz-appearance: none;
             height: 23px;
             width: 23px;
             margin-top: -3px; /*使滑块超出轨道部分的偏移量相等*/
@@ -46,6 +56,34 @@
             background-size: cover;
             border-radius: 50%; /*外观设置为圆形*/
             //box-shadow: 0 0 8px #ddd; /*添加底部阴影*/
+
+        }
+        input[type=range]::-moz-range-track {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            height: 15px;
+            border-radius: 10px; /*将轨道设为圆角的*/
+            background: transparent;
+        }
+        input[type=range]::-moz-range-thumb {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            height: 23px;
+            width: 23px;
+            margin-top: -3px; /*使滑块超出轨道部分的偏移量相等*/
+            background: url("./D.png") no-repeat;
+            background-size: cover;
+            border-radius: 50%; /*外观设置为圆形*/
+        }
+        input[type=range]::-ms-track {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            height: 23px;
+            width: 23px;
+            margin-top: -3px; /*使滑块超出轨道部分的偏移量相等*/
+            background: url("./D.png") no-repeat;
+            background-size: cover;
+            border-radius: 50%; /*外观设置为圆形*/
 
         }
         .num{
@@ -62,16 +100,32 @@
     </style>
 </head>
 <body>
-<input class="inpt" type="range" value="0"/>
+<input class="inpt" type="range" value="100"/>
 <span class="num">0</span>
 <script>
-    var change = function() {
-        /*内容可自行定义*/
+    /*var change = function() {
+        /!*内容可自行定义*!/
         var inp=$(".inpt");
         var span=$(".num");
         span.text(inp.val()*2);
-    };
-    $.fn.RangeSlider = function(cfg){
+    };*/
+
+  /*  $('.inpt').change(function () {
+        $(this).css( 'background', 'linear-gradient(to right, #059CFA 0%, #059CFA '+$(this).val() + '%,#424e5c ' + $(this).val() + '%, #424e5c)' );
+        var inp=$(".inpt");
+        var span=$(".num");
+        span.text(inp.val()*2);
+
+    });*/
+    $(".inpt").focus(function(){this.blur()});
+    $('.inpt').on("mousemove",function () {
+        $(this).css( 'background', 'linear-gradient(to right, #059CFA 0%, #059CFA '+$(this).val() + '%,#424e5c ' + $(this).val() + '%, #424e5c)' );
+        var inp=$(".inpt");
+        var span=$(".num");
+        span.text(inp.val()*2);
+
+    });
+    /*$.fn.RangeSlider = function(cfg){
         this.sliderCfg = {
             min: cfg && !isNaN(parseFloat(cfg.min)) ? Number(cfg.min) : null,
             max: cfg && !isNaN(parseFloat(cfg.max)) ? Number(cfg.max) : null,
@@ -99,9 +153,13 @@
                 callback(this);
             }
         });
-    };
+    };*/
 
-    $('.inpt').RangeSlider({ min: 0,   max: 100,  step: 1,callback: change});
+   // $('.inpt').RangeSlider({ min: 0,   max: 100,  step: 1,callback: change});
+
+
+
+
 </script>
 </body>
 </html>

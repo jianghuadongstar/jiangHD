@@ -70,9 +70,8 @@
     }
 
     function Draw (context,W,H){
-        console.log("还在进行");
         context.clearRect(0,0,W, H);
-        context.save();
+        context.save();//Canvas 状态是以堆(stack)的方式保存的，每一次调用 save 方法，当前的状态就会被推入堆中保存起来。
 
         context.beginPath();
         context.fillStyle = "black";
@@ -82,15 +81,15 @@
         context.beginPath();
         context.arc(ball.x,ball.y,ball.r,0,Math.PI*2);
         context.fillStyle = "#fff";
-        context.fill();
-        context.clip();
+        context.fill();//开始填充
+        context.clip();//裁剪画布   clip()之后绘制的部分将会被显示
 
         var imgs=new Image();
         imgs.src="../imgs/c1.jpg";
         context.fillStyle = context.createPattern(imgs,"repeat");
         context.fill();
 
-        context.restore();
+        context.restore();//你可以调用任意多次 save 方法。每一次调用 restore 方法，上一个保存的状态就从堆中弹出，所有设定都恢复。
     }
 
 </script>

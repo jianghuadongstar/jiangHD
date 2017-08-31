@@ -1,0 +1,1 @@
+一个javascript BASE64编码解码库，目前支持utf8编码

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>验证码</title>
+</head>
+<style>
+    body,html{
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        background-image: radial-gradient(ellipse at 50% 80%, #515f6b, #191e21);
+    }
+    .validation_code{
+        padding: 0 15px;
+    }
+    .validation_code .validation_head{
+        position: relative;
+        height: 62px;
+        line-height: 60px;
+        background: url("./img/header_bg.png") no-repeat bottom center;
+    }
+    .validation_code .validation_head .logo{
+        position: absolute;
+        left: 0;
+        top: 15px;
+        display: inline-block;
+        width: 140px;
+        height: 31px;
+        background: url("./img/logo.png") no-repeat center;
+        background-size: cover;
+    }
+    .validation_code .validation_head .validation_til{
+        text-align: center;
+        font-size: 16px;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+    .validation_code .validation_content{
+        height: 400px;
+        background-image: radial-gradient(ellipse at 50% 100%, #515f6b, #22282e);
+        padding-top: 30px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .validation_code .validation_content .v_c_div{
+        position: relative;
+        height: 50px;
+        line-height: 50px;
+        font-size: 12px;
+        width: 480px;
+        text-align: left;
+        margin:  10px auto;
+
+    }
+    .validation_code .validation_content .v_c_div label{
+        display: inline-block;
+        width: 92px;
+        color: white;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 20px;
+    }
+    .validation_code .validation_content .v_c_div input{
+        border: none;
+        outline: none;
+        color: white;
+        font-size: 13px;
+        background-color: #3b4552;
+        border-radius: 3px;
+        height: 40px;
+        line-height: 20px;
+        padding: 10px 0 10px 20px;
+        width: 360px;
+        box-sizing: border-box;
+    }
+    .validation_code .validation_content .v_c_div .inp{
+        width: 220px;
+    }
+    .validation_code .validation_content .v_c_div .sp{
+         position: absolute;
+         display: inline-block;
+         width: 120px;
+         height: 40px;
+         line-height: 40px;
+         right: 10px;
+         top: 5px;
+
+        background: url("./img/canvas_bg.png") no-repeat center;
+        -webkit-filter: blur(1px); /* Chrome, Opera */
+        -moz-filter: blur(1px);
+        -ms-filter: blur(1px);
+        filter: blur(1px);
+     }
+    .validation_code .validation_content .v_c_div .btn{
+        width: 82px;
+        height: 36px;
+        font-size: 14px;
+        background: #697c98;
+        border-radius: 5px;
+        cursor: pointer;
+        color: #fff;
+        outline: none;
+        border: none;
+        box-sizing: border-box;
+    }
+    .validation_code .validation_content .v_c_div1{
+        height: 20px;
+        line-height: 20px;
+        margin-top: -10px;
+        color: #787979;
+     }
+    .validation_code .validation_content .v_c_div1 label{
+        height: 5px;
+    }
+    .validation_code .validation_content .v_c_div1 .span_text_r{
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        color: white;
+        cursor: pointer;
+     }
+</style>
+<body>
+<div class="validation_code">
+    <div class="validation_head">
+        <p class="validation_til">找回密码</p>
+        <span class="logo"></span>
+    </div>
+    <div class="validation_content">
+        <div class="v_c_div">
+            <label>需要找回的账号: </label><input type="text" placeholder="请填写您需要找回的账号">
+        </div>
+        <div class="v_c_div">
+            <label>验证码: </label><input id="code_input" class="inp" type="text" placeholder="请填写验证码"><span class="sp"><canvas id="myCanvas" width="120" height="40"></canvas></span>
+        </div>
+        <div class="v_c_div v_c_div1">
+            <label></label><span class="span_text_l">输入右图中的字符，不区分大小写</span><span class="span_text_r" id="refresh">看不清？换一张</span>
+        </div>
+        <div class="v_c_div">
+            <label></label><button class="btn" id="my_button">提交</button>
+        </div>
+    </div>
+</div>
+<script src="js/gVerify.js"></script>
+<script>
+    var code = '';
+    var codeLength = 4;//验证码长度
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    createCode();//初始化
+
+    window.document.getElementById('refresh').onclick = function () {//刷新验证码
+        createCode()
+    };
+    window.document.getElementById('my_button').onclick = function () {//检查验证码是否正确
+        var val = document.getElementById('code_input').value;
+        if(val.toLowerCase() == code.toLowerCase() ){
+            alert('验证码正确');
+        }else {
+            alert('验证码错误，请重新输入！');
+            document.getElementById('code_input').value = '';
+            createCode();
+        }
+    };
+    function createCode() {
+        var selectChar = new Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z');
+        //随机遍历数组,拼接验证码字符串
+        for (var i = 0; i < codeLength; i++) {
+            var charIndex = Math.floor(Math.random() * 61);
+            code += selectChar[charIndex];
+        }
+        //判断字符随机位数是否足够
+        if (code.length != codeLength) {
+            createCode();
+        }
+        draw(code,canvas.width,canvas.height)
+    }
+
+    /**
+     * 绘图函数
+     * @param text    类型为string
+     */
+    function draw(text,w,h) {
+        context.clearRect(0,0,w, h);//画布大小
+
+        for(var i =0;i<text.length;i++){
+            var left = w/text.length*i;
+            context.save();
+            context.beginPath();
+            context.fillStyle = 'transparent';  //设置填充的背景颜色
+            context.fillRect(left,0,w,h);
+            context.fillStyle = '#fff';
+
+            context.strokeStyle = '#fff'; //设置笔触的颜色
+            context.font = "bold 25px 'Microsoft Yahei','宋体'"; //设置字体
+            context.textBaseline = 'middle';//Baseline[(Math.random()*4).toFixed(0)/1]; //在绘制文本时使用的当前文本基线
+            context.fillText(text[i], left+5, 10 + (Math.random()*20).toFixed(0)/1);//验证码字符串变动区域
+            context.closePath();
+            context.restore();
+        }
+    }
+</script>
+</body>
+</html>

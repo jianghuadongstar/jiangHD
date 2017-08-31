@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jbase64.js"></script>
+</head>
+<body>
+<h2>请看控制台</h2>
+<script>
+    var strBefore = '2222';//源字符串
+    var strAfter = '';//最终经过编码、解码再拼接起来的字符串（与源字符串一致）
+    var base64 = BASE64.encoder(strBefore);//返回编码后的字符
+    var unicode= BASE64.decoder(base64);//返回解码后的unicode码数组。
+
+    //可由下面的代码编码为string
+    for(var i = 0 , len =  unicode.length ; i < len ;++i){
+        strAfter += String.fromCharCode(unicode[i]);
+    }
+
+    console.log('源字符串：');
+    console.log(strBefore);
+    console.log("===============分界线===============");
+
+    console.log('编码后的字符：');
+    console.log(base64);
+    console.log("===============分界线===============");
+
+    console.log('解码之后的数组：');
+    console.log(unicode);
+    console.log("===============分界线===============");
+
+    console.log('经过编解码符串：');
+    console.log(strAfter);
+</script>
+</body>
+</html>

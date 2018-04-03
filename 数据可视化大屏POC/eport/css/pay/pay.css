@@ -1,0 +1,136 @@
+body,html{
+  background: #010d3a;
+  color: #fff;padding: 0;margin: 0;font-family: "Microsoft Yahei", Arial, sans-serif;
+}
+a:link,a:visited,a:hover,a:active  {text-decoration:none;}
+.wrap{min-width: 1000px;}
+.main-header{
+  height: 50px;
+  line-height:50px;font-size: 18px;background: #15335a;text-align: center;
+}
+.main-content{
+  padding: 20px;
+}
+/*支付统计*/
+.pay-content,.pay-detail{background: rgba(116, 147, 180, 0.1); padding: 10px;}
+.pay-content ul{list-style: none;margin: 0; padding: 0;     overflow: hidden;}
+.pay-content ul > li{    width: 16.6666%;  text-align: center;  float: left; }
+.pay-content ul > li .div-bg{    background: rgba(116, 147, 180, 0.2);  padding: 10px;  margin: 0 5px;}
+.pay-content ul .title{font-size: 12px; }
+.pay-content ul .number{font-size: 24px; font-weight: bold; line-height: 40px;}
+.pay-content ul .progress{height: 15px;margin-bottom:0;background-color:transparent}
+.pay-content ul .progress .progress-bar{line-height: 15px; color: #22335c;}
+.progress-bar-success{background: #13d1ca;}
+.progress-bar-warning{background: #f5533d;}
+
+/*table*/
+table{
+  width: 100%;
+  margin-top: 10px;
+}
+/*获得奇偶数的子元素*/
+table tbody > tr:nth-child(odd){
+  background: rgba(121, 247, 255, 0.2);
+  color: #ffffff;
+}
+/*获得奇偶数的子元素*/
+table tbody > tr:nth-child(even)		{
+  /*background: rgba(13, 88, 178, 0.2);*/
+  color: #ffffff;
+}
+
+table thead > tr > th {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 14px;
+
+
+}
+
+table tbody > tr > td,
+table thead > tr > th {
+  height: 36px;
+  line-height: 36px;
+  word-break: break-all;
+  text-align: center;
+}
+table tbody > tr > td {
+  color: #a1b8c3;
+  font-size: 12px;
+
+}
+.icon-num{
+  font-style: normal;
+  background: rgba(121, 247, 255, 0.6);padding: 1px 5px;
+  border-radius: 50%; color: #0c131a
+}
+.icon-num-2{
+  padding: 1px 2px;
+}
+/*交易详情*/
+
+.pay-detail{
+  margin-top: 20px;
+}
+.pay-detail .title{ border-left: 5px solid #79f7ff; color: #79f7ff;     position: relative;
+  padding-left: 10px;
+  font-size: 12px;
+  left: -10px; }
+.pay-detail .filter{
+  float: right;
+}
+.pay-detail .filter > div{margin-left: 28px;}
+.pay-detail .filter > div label,.pay-detail .filter > div select{display: inline-block; color: #fff; font-weight: normal;}
+.pay-detail .filter .form-control{width: 120px; height: 28px;line-height: 28px;    border: 1px solid #7493b4;    background-color: #0d1b46;  }
+.btn-view{border: 1px solid #7493b4; color: #7493b4; background: transparent; padding: 5px 10px;text-decoration: none;  }
+.btn-view:hover{background: #3ecbd4;color: #fff;border: 1px solid #3ecbd4;}
+/*分页*/
+ .paging{padding-top: 20px; text-align: right;}
+.paging ul {list-style: none}
+.paging ul li {display: inline-block; color: #6a6b6d; font-size: 12px; margin: 0 2px;}
+.paging ul li > a{border: 1px solid #9ea4b5; padding: 5px 8px;color: #6a6b6d;text-decoration: none;}
+.paging ul li > a:hover,.paging ul li > a.current{background: #3ecbd4;border: 1px solid #3ecbd4; color: #fff;}
+.paging ul li > input{border: 1px solid #9ea4b5; padding: 5px 8px;color: #6a6b6d; background: transparent; width: 35px;height:26px;text-align: center;}
+/*color*/
+.text-bule{
+  color: #009fe8;
+}
+.text-green{
+  color: #3bb22b;
+}
+.text-yellow{
+  color: #ffbf00;
+}
+.text-purple{
+  color: #d97dff;
+}
+.text-red{
+  color: #f5533d;
+}
+.text-bule2{color: #79f7ff;}
+
+/*icon 图标*/
+[class*=icon-pay]{
+  display: inline-block;
+  width: 36px;
+  height:36px;
+  margin-top: 3px;
+}
+.icon-pay-01{
+  background: url("../../img/pay/images/icon-pay-01.png") no-repeat;
+}
+.icon-pay-02{
+  background: url("../../img/pay/images/icon-pay-02.png") no-repeat;
+}
+.icon-pay-03{
+  background: url("../../img/pay/images/icon-pay-03.png") no-repeat;
+}
+.icon-pay-04{
+  background: url("../../img/pay/images/icon-pay-04.png") no-repeat;
+}
+.icon-pay-05{
+  background: url("../../img/pay/images/icon-pay-05.png") no-repeat;
+}
+.icon-pay-06{
+  background: url("../../img/pay/images/icon-pay-06.png") no-repeat;
+}

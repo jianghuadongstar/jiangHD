@@ -1,0 +1,158 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    position: relative;
+    width: 1280px;
+    height: 1480px;
+    color: #ffffff;
+    font-family: SimHei, '黑体', Helvetica, "Microsoft Yahei", Arial, sans-serif;
+    background: #050f27;
+    z-index: 11;
+    margin: 0 auto;
+}
+
+#root .wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../img/bg1.png")no-repeat;
+}
+/*侧栏*/
+#root .sidebar {
+    width: 240px;
+    height: 900px;
+    float: left;
+}
+
+#root .sidebar p{
+    font-size: 18px;
+    text-align: center;
+    line-height: 15px;
+}
+
+#root .sidebar table thead th{
+    font-size: 13px;
+    padding: 5px 0 0 20px;
+}
+
+#root .sidebar table thead th:nth-child {
+    padding-left: 5px;
+}
+
+#root .sidebar table tbody{
+    font-size: 12px;
+}
+
+#root .sidebar table tbody td{
+    padding: 21px 0 0 20px;
+}
+
+#root .sidebar table tbody td:nth-child{
+    padding-left: 5px;
+}
+
+#root .content .header{
+    width: 1000px;
+    height: 38px;
+    margin: 2px 0 0 260px;
+}
+
+#root .content .header p{
+    color: #79f7ff;
+    padding-left: 10px;
+    line-height: 18px;
+    font-size: 16px;
+}
+
+#root .content .header p span {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#root .content .header .time {
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin: -40px 15px 2px 0;
+    border: 1px solid #ff9545;
+}
+
+#root .content .indicate .sum ,
+#root .content .indicate .succeed,
+#root .content .indicate .Loser,
+#root .content .indicate .health {
+    display: block;
+    width: 40px;
+    height: 40px;
+    float: left;
+    font-size:32px;
+}
+
+#root .content .indicate .sum {
+    color: #0f9df7;
+    margin: 100px 0 0 130px;
+}
+
+#root .content .indicate .succeed {
+    color: #13d1ca;
+    margin: 100px 0 0 208px;
+}
+
+#root .content .indicate .Loser {
+    color: #f5533d;
+    margin: 100px 0 0 224px;
+}
+
+#root .content .indicate .health {
+    color: #f1bc16;
+    margin: 100px 0 0 198px;
+}
+/*交易详情*/
+#root .content .trading-particulars {
+    width: 1000px;
+    height: 495px;
+    float: left;
+    margin: 40px 0 0 20px;
+}
+
+#root .content .trading-particulars .particulars-ls{
+    width: 960px;
+    height: 410px;
+    float: left;
+    margin: 46px 0 0 16px;
+    /*border: 1px solid #ffd35c;*/
+}
+
+#root .content .trading-particulars .particulars-ls table thead th {
+    padding-left: 70px;
+}
+
+#root .content .trading-particulars .particulars-ls table thead th:nth-child(1){
+    padding-left: 4px;
+}
+
+#root .content .trading-particulars .particulars-ls table tbody tr td {
+    padding: 13px 0 0 80px;
+}
+
+#root .content .trading-particulars .particulars-ls table tbody tr td:nth-child(1){
+    padding-left: 19px;
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+    background: #79f7ff;
+}
+
+
+
+
+
+
+
+
+

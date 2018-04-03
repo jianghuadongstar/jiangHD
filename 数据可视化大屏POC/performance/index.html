@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <!-- 文档兼容模式的定义 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <!-- 优先使用webkit内核渲染页面 -->
+  <meta name="renderer" content="webkit">
+  <!-- 设置可视区域宽度与设备屏幕缩放比例为1.0 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>儿童娱乐系统分布式门店交易与性能动态</title>
+  <meta name="keywords" content="儿童娱乐系统分布式门店交易与性能动态"/>
+  <meta name="description" content="儿童娱乐系统分布式门店交易与性能动态">
+  <meta name="author" content="happily.li">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/comm.css"/>
+  <link rel="stylesheet" href="css/index.css"/>
+
+</head>
+<body>
+<div id="root">
+  <div class="performance">
+    <div class="cloud-inner">
+      <div class="datetime">2017 - 08 - 14 10:47:29</div>
+      <div class="number-title clearfix">
+        <div><span class="font-14">总门店数量：</span><span class="font-24 color-blue">148</span></div>
+        <div><span class="font-14">总交易数量：</span><span class="font-24 color-green" id="total">2,318</span></div>
+        <div><span class="font-14">失败交易量：</span><span class="font-24 color-red" id="failed">15</span></div>
+      </div>
+      <!--left tablelist-->
+      <div class="left-content">
+        <div class="numberTop-list">
+          <h3 class="sub-title">交易量TOP20儿童娱乐门店</h3>
+          <div class="div-table">
+            <table>
+              <thead>
+              <tr>
+                <th width="20%">序号</th>
+                <th width="60%" class="text-left">门店</th>
+                <th width="20%" class="text-left">交易量</th>
+              </tr>
+              </thead>
+            </table>
+            <!--滚图-->
+            <ul class="slider2">
+              <li class="slide">
+                <table>
+                  <tbody>
+                  <tr>
+                    <td width="20%"><i class="icon-top icon-top1"></i></td>
+                    <td width="60%" class="tab1_name"></td>
+                    <td width="20%" class="tab1_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-top icon-top2"></i></td>
+                    <td class="tab1_name"></td>
+                    <td class="tab1_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-top icon-top3"></i></td>
+                    <td class="tab1_name"></td>
+                    <td class="tab1_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num">4</i></td>
+                    <td class="tab1_name"></td>
+                    <td class="tab1_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num">5</i></td>
+                    <td class="tab1_name"></td>
+                    <td class="tab1_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num">6</i></td>
+                    <td class="tab1_name"></td>
+                    <td class="tab1_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num">7</i></td>
+                    <td class="tab1_name"></td>
+                    <td class="tab1_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num">8</i></td>
+                    <td class="tab1_name"></td>
+                    <td class="tab1_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num">9</i></td>
+                    <td class="tab1_name"></td>
+                    <td class="tab1_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num icon-num-2">10</i></td>
+                    <td class="tab1_name"></td>
+                    <td class="tab1_val"></td>
+                  </tr>
+                  </tbody>
+                </table>
+              </li>
+              <li class="slide">
+                <table>
+                  <tbody>
+                  <tr>
+                    <td width="20%"><i class="icon-num icon-num-2">11</i></td>
+                    <td width="60%" class="tab1_name"></td>
+                    <td width="20%" class="tab1_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num icon-num-2">12</i></td>
+                    <td class="tab1_name"></td>
+                    <td class="tab1_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num icon-num-2">13</i></td>
+                    <td class="tab1_name"></td>
+                    <td class="tab1_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num icon-num-2">14</i></td>
+                    <td class="tab1_name"></td>
+                    <td class="tab1_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num icon-num-2">15</i></td>
+                    <td class="tab1_name"></td>
+                    <td class="tab1_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num icon-num-2">16</i></td>
+                    <td class="tab1_name"></td>
+                    <td class="tab1_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num icon-num-2">17</i></td>
+                    <td class="tab1_name"></td>
+                    <td class="tab1_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num icon-num-2">18</i></td>
+                    <td class="tab1_name"></td>
+                    <td class="tab1_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num icon-num-2">19</i></td>
+                    <td class="tab1_name"></td>
+                    <td class="tab1_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num icon-num-2">20</i></td>
+                    <td class="tab1_name"></td>
+                    <td class="tab1_val"></td>
+                  </tr>
+                  </tbody>
+                </table>
+              </li>
+            </ul>
+            <!--滚图-->
+
+          </div>
+        </div>
+        <div class="numberTop-list numberTop-list2">
+          <h3 class="sub-title">性能不佳TOP20儿童娱乐门店</h3>
+          <div class="div-table">
+            <table>
+              <thead>
+              <tr>
+                <th width="20%">序号</th>
+                <th width="35%" class="text-left">门店</th>
+                <th width="25%" class="text-left">可用率</th>
+                <th width="20%" class="text-left">得分</th>
+              </tr>
+              </thead>
+            </table>
+            <ul class="slider2">
+              <li class="slide">
+                <table class="table-tbody-list">
+                  <tbody>
+                  <tr>
+                    <td width="20%"><i class="icon-num">1</i></td>
+                    <td width="35%" class="tab2_name"></td>
+                    <td width="25%" class="tab2_P"></td>
+                    <td width="20%" class="tab2_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num">2</i></td>
+                    <td class="tab2_name"></td>
+                    <td class="tab2_P"></td>
+                    <td class="tab2_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num">3</i></td>
+                    <td class="tab2_name"></td>
+                    <td class="tab2_P"></td>
+                    <td class="tab2_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num">4</i></td>
+                    <td class="tab2_name"></td>
+                    <td class="tab2_P"></td>
+                    <td class="tab2_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num">5</i></td>
+                    <td class="tab2_name"></td>
+                    <td class="tab2_P"></td>
+                    <td class="tab2_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num">6</i></td>
+                    <td class="tab2_name"></td>
+                    <td class="tab2_P"></td>
+                    <td class="tab2_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num">7</i></td>
+                    <td class="tab2_name"></td>
+                    <td class="tab2_P"></td>
+                    <td class="tab2_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num">8</i></td>
+                    <td class="tab2_name"></td>
+                    <td class="tab2_P"></td>
+                    <td class="tab2_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num">9</i></td>
+                    <td class="tab2_name"></td>
+                    <td class="tab2_P"></td>
+                    <td class="tab2_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num icon-num-2">10</i></td>
+                    <td class="tab2_name"></td>
+                    <td class="tab2_P"></td>
+                    <td class="tab2_val"></td>
+                  </tr>
+                  </tbody>
+                </table>
+              </li>
+              <li class="slide">
+                <table class="table-tbody-list">
+                  <tbody >
+                  <tr>
+                    <td width="20%"><i class="icon-num icon-num-2">11</i></td>
+                    <td width="35%" class="tab2_name"></td>
+                    <td width="25%" class="tab2_P"></td>
+                    <td width="20%" class="tab2_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num icon-num-2">12</i></td>
+                    <td class="tab2_name"></td>
+                    <td class="tab2_P"></td>
+                    <td class="tab2_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num icon-num-2">13</i></td>
+                    <td class="tab2_name"></td>
+                    <td class="tab2_P"></td>
+                    <td class="tab2_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num icon-num-2">14</i></td>
+                    <td class="tab2_name"></td>
+                    <td class="tab2_P"></td>
+                    <td class="tab2_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num icon-num-2">15</i></td>
+                    <td class="tab2_name"></td>
+                    <td class="tab2_P"></td>
+                    <td class="tab2_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num icon-num-2">16</i></td>
+                    <td class="tab2_name"></td>
+                    <td class="tab2_P"></td>
+                    <td class="tab2_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num icon-num-2">17</i></td>
+                    <td class="tab2_name"></td>
+                    <td class="tab2_P"></td>
+                    <td class="tab2_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num icon-num-2">18</i></td>
+                    <td class="tab2_name"></td>
+                    <td class="tab2_P"></td>
+                    <td class="tab2_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num icon-num-2">19</i></td>
+                    <td class="tab2_name"></td>
+                    <td class="tab2_P"></td>
+                    <td class="tab2_val"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="icon-num icon-num-2">20</i></td>
+                    <td class="tab2_name"></td>
+                    <td class="tab2_P"></td>
+                    <td class="tab2_val"></td>
+                  </tr>
+                  </tbody>
+                </table>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+      <!--right-->
+
+      <div class="right-content">
+        <div class="top-content">
+          <div class="map-content">
+            <div class="title"><h3 class="sub-title">儿童娱乐门店动态健康地图分析</h3></div>
+            <div class="map-chart" id="map-chart">
+
+            </div>
+          </div>
+          <div class="chart-content">
+            <!--chart 儿童娱乐门店在线支付统计-->
+            <div class="ring-content">
+              <h3 class="sub-title">儿童娱乐门店在线支付统计</h3>
+              <div class="ring-chart" id="ring-chart"></div>
+            </div>
+            <!--chart 儿童娱乐门店在线支付统计-->
+            <style>
+
+            </style>
+            <!--呼吸灯 儿童娱乐门店总部支撑系统性能分析-->
+            <div class="light-content">
+              <h3 class="sub-title">儿童娱乐门店总部支撑系统性能分析</h3>
+              <ul class="light-ul">
+                <li>
+                  <div class="green-light"></div>
+                  <div class="green-bg">
+                    <i class="icon-light-01"></i>
+                  </div>
+                  <div class="text">
+                    <p>应用</p>
+                    <p>服务器</p>
+                  </div>
+                  <div class="cpu-chart" id="cpu-chart1">
+
+                  </div>
+                </li>
+                <li>
+                  <div class="yellow-light"></div>
+                  <div class="yellow-bg">
+                    <i class="icon-light-02"></i>
+                  </div>
+                  <div class="text">
+                    <p>数据库集群</p>
+                    <p>服务器</p>
+                  </div>
+                  <div class="cpu-chart" id="cpu-chart2">
+
+                  </div>
+                </li>
+                <li>
+                  <div class="red-light"></div>
+                  <div class="red-bg">
+                    <i class="icon-light-03"></i>
+                  </div>
+                  <div class="text">
+                    <p>门店应急</p>
+                    <p>服务器</p>
+                  </div>
+                  <div class="cpu-chart" id="cpu-chart3">
+
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!--儿童娱乐门店总部支撑系统性能分析-->
+          </div>
+        </div>
+        <div class="area-content">
+          <h3 class="sub-title">儿童娱乐门店健康变化趋势TOP5</h3>
+          <div class="area-chart" id="area-chart"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+<script src="../vender/jquery-1.12.4/jquery.min.js"></script>
+<script src="../vender/slider/js/jquery.bxslider.js"></script>
+<script src="../vender/charts/echarts.js"></script>
+<script src="../vender/charts/china.js"></script>
+<script src="../vender/charts/china-contour.js"></script>
+<script src="js/index.js"></script>
+<script src="js/position.js"></script>
+<script src="js/charts.js"></script>
+
+
+
+</html>

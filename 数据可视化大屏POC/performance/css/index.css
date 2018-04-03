@@ -1,0 +1,179 @@
+body,html{
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft Yahei", Arial, sans-serif;
+}
+
+/*性能动态*/
+.performance {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", Arial, sans-serif;
+  background: #050f27;
+  z-index: 11;
+
+}
+.performance .cloud-inner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background: url("../img/bg.png");
+  padding: 33px 58px;
+}
+.performance .title {
+  font-size: 16px;
+  text-align: center;
+}
+
+
+/*datetime*/
+@font-face {
+  font-family: 'lcd';
+  src: url('../fonts/DS-DIGI.TTF');
+}
+.datetime {
+  font-family: 'lcd';
+  text-align: left;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+.number-title{
+  text-align: center; height: 42px;line-height: 42px;
+}
+.number-title >div{
+  display: inline-block;
+  margin-right: 55px;
+}
+.number-title >div >span:last-child{
+  font-weight: bold;
+  display: inline-block;
+  width: 60px;
+}
+.left-content{width: 380px; height: 945px; float:left;}
+.div-table{
+  margin-top: 15px;
+}
+.numberTop-list{padding:0 20px;}
+.numberTop-list2{ margin-top: 47px;}
+.performance .numberTop-list table {
+
+  width: 100%;
+  /*border: 1px solid #2d456b;*/
+  border-right: 0;
+  border-bottom: 0;
+  font-size: 11px;
+  color: #c1dbfd;
+}
+
+/*获得奇偶数的子元素*/
+.performance .numberTop-list table tbody > tr:nth-child(odd){
+  background: rgba(121, 247, 255, 0.2);
+  color: #ffffff;
+}
+/*获得奇偶数的子元素*/
+.performance .numberTop-list table tbody > tr:nth-child(even)		{
+  /*background: rgba(13, 88, 178, 0.2);*/
+  color: #ffffff;
+}
+
+.performance .numberTop-list table thead > tr > th {
+  color: #ffffff;
+
+}
+.performance .numberTop-list table tbody > tr:first-child > td {
+  font-size: 15px;
+}
+.performance .numberTop-list table tbody > tr > td,
+.performance .numberTop-list table thead > tr > th {
+  height: 36px;
+  line-height: 36px;
+  word-break: break-all;
+  font-size: 15px;
+}
+.performance .numberTop-list table thead > tr > th,
+.performance .numberTop-list table tbody > tr > td {
+  /*border-bottom: 1px solid #2d456b;*/
+}
+.performance .numberTop-list table tbody > tr > td:last-child,table.table-tbody-list tbody > tr > td:nth-child(3){
+  color: #79f7ff;
+}
+.performance .numberTop-list table tbody > tr > td:first-child{
+  text-align: center;
+}
+.icon-num{
+  background:#79f7ff;padding: 1px 5px;
+  border-radius: 50%; color: #0c131a
+}
+.icon-num-2{
+  padding: 1px 2px;
+}
+/*地图模块*/
+.right-content{width: 1420px; float: left }
+.right-content .top-content{height: 670px;}
+.right-content .map-content{width: 950px; float:left;}
+.right-content .map-content .title{position: absolute;margin-left: 20px; margin-top: 20px;}
+.right-content .map-content .map-chart{  width: 942px;height: 670px; margin-left:20px;  margin-top: 5px; }
+.right-content .chart-content {width: 443px; float: left; padding-left: 45px;}
+/*呼吸灯模块*/
+.ring-content{margin-top: 2px;}
+.ring-content .ring-chart{height: 240px; width: 405px; margin: 0 auto;margin-top: 10px;}
+
+.light-content{margin-top: 38px;}
+.light-content .light-ul{margin-top: 50px;}
+.light-content .light-ul > li{float:left; width: 33.333%; text-align: center; padding: 10px; position: relative}
+.light-content .light-ul > li .text{color: #c1dbfd; font-size: 14px;}
+.light-content .light-ul > li > div > p{line-height: 25px;}
+.light-content .cpu-chart{height:60px; width: 120px; margin-top: 15px;}
+/*面积图模块*/
+.area-content{margin-top: 22px; margin-left: 25px;}
+.area-content .area-chart{height: 210px; width:1380px;margin-top:5px;}
+.performance .clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+/*icon*/
+[class*=icon-top]{
+  display: inline-block;
+  width: 18px;
+  height: 30px;
+  vertical-align: top;
+}
+
+.icon-top1{
+  background: url("../img/icon-top1.png") no-repeat;
+}
+.icon-top2{
+  background: url("../img/icon-top2.png") no-repeat;
+}
+.icon-top3{
+  background: url("../img/icon-top3.png") no-repeat;
+}
+
+[class*=icon-light]{
+  display: inline-block;
+  width: 54px;
+  height:54px;
+  margin-top: 17px;
+  margin-left: 4px;
+}
+.icon-light-01{
+  background: url("../img/icon-light-01.png") no-repeat;
+}
+.icon-light-02{
+  background: url("../img/icon-light-02.png") no-repeat;
+  margin-left: 0px;
+  margin-top: 16px;
+}
+.icon-light-03{
+  background: url("../img/icon-light-03.png") no-repeat;
+  margin-left: 7px;
+}

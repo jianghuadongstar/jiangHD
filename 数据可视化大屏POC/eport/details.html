@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>设备详情</title>
+    <link rel="stylesheet" href="css/detail.css">
+    <script src="../vender/jquery-1.12.4/jquery.min.js"></script>
+</head>
+<body>
+<div class="details_box">
+    <div class="details_title">设备详情</div>
+    <div class="details_content">
+        <div class="details_search">
+            <div class="inp_div">
+                <input class="inp" type="text" placeholder="请输入搜索内容">
+                <span class="icon_search"></span>
+            </div>
+            <span class="span">高级筛选</span>
+            <div class="alert_window">
+                <div class="alert_window_sel">
+                    <label>地区筛选:</label>
+                    <select>
+                        <option value="-1">省</option>
+                        <option>黑龙江省</option>
+                        <option>吉林省</option>
+                        <option>河北省</option>
+                    </select>
+                    <select>
+                        <option value="-1">市</option>
+                        <option>长春市</option>
+                        <option>吉林市</option>
+                        <option>白山市</option>
+                    </select>
+                </div>
+                <div class="alert_window_sel">
+                    <label>硬件筛选:</label>
+                    <select>
+                        <option value="-1">类型</option>
+                        <option>类型1</option>
+                        <option>类型2</option>
+                        <option>类型3</option>
+                    </select>
+                    <select>
+                        <option value="-1">品牌</option>
+                        <option>品牌1</option>
+                        <option>品牌2</option>
+                        <option>品牌3</option>
+                    </select>
+                    <select>
+                        <option value="-1">型号</option>
+                        <option>型号1</option>
+                        <option>型号2</option>
+                        <option>型号3</option>
+                    </select>
+                </div>
+                <div class="alert_window_sel">
+                    <label>软件筛选:</label>
+                    <select>
+                        <option value="-1">系统</option>
+                        <option>系统1</option>
+                        <option>系统2</option>
+                        <option>系统3</option>
+                    </select>
+                    <select>
+                        <option value="-1">版本</option>
+                        <option>版本1</option>
+                        <option>版本2</option>
+                        <option>版本3</option>
+                    </select>
+                </div>
+                <div class="alert_window_sel">
+                    <label>状态筛选:</label>
+                    <span class="radio"><i class="icon_i"></i>正常</span>
+                    <span class="radio"><i class="icon_i icon_active"></i>安全隐患</span>
+                    <span class="radio"><i class="icon_i"></i>危险预警</span>
+                </div>
+                <div class="alert_window_sel">
+                    <label>购买时间:</label>
+                    <select>
+                        <option value="-1">2015年</option>
+                        <option>2013年</option>
+                        <option>2014年</option>
+                        <option>2016年</option>
+                    </select>
+                    <select>
+                        <option value="-1">1月</option>
+                        <option>2月</option>
+                        <option>3月</option>
+                        <option>4月</option>
+                    </select>
+                    <select>
+                        <option value="-1">1日</option>
+                        <option>2日</option>
+                        <option>3日</option>
+                        <option>4日</option>
+                    </select>
+                </div>
+                <div class="alert_window_sel">
+                    <label>业务筛选:</label>
+                    <select>
+                        <option value="-1">web</option>
+                        <option>php</option>
+                        <option>java</option>
+                        <option>.net</option>
+                    </select>
+                </div>
+                <div class="isSure">
+                    <a class="no">取消</a>
+                    <a class="yes isSure_active">确认</a>
+                </div>
+                <span class="icon_sanjiao"></span>
+            </div>
+        </div>
+        <div class="content_title">设备详情</div>
+        <div class="content_tab">
+            <table border="0" cellspacing="0" cellpadding="0">
+                <thead>
+                    <tr>
+                        <th>序号</th>
+                        <th>资产编号</th>
+                        <th>分类</th>
+                        <th>类型</th>
+                        <th>品牌</th>
+                        <th>型号</th>
+                        <th>软件版本</th>
+                        <th>购买时间</th>
+                        <th>使用期限(月)</th>
+                        <th>存放地点</th>
+                        <th>业务归属</th>
+                        <th>负责人</th>
+                        <th>状态</th>
+                    </tr>
+                </thead>
+                <tbody class="tbd">
+                    <tr>
+                        <td><span class="yuan">1</span></td>
+                        <td>WD-adas</td>
+                        <td>电脑</td>
+                        <td>服务器</td>
+                        <td>DELL</td>
+                        <td class="type_td">B-2839</td>
+                        <td>win10</td>
+                        <td>2017-02-21</td>
+                        <td>34</td>
+                        <td>北京-丰台</td>
+                        <td>web前端</td>
+                        <td>张亮</td>
+                        <td class="status_td yellow">
+                            安全隐患
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="yuan">2</span></td>
+                        <td>WD-123</td>
+                        <td>电脑</td>
+                        <td>服务器</td>
+                        <td>DELL</td>
+                        <td class="type_td">B-2839</td>
+                        <td>win10</td>
+                        <td>2017-02-21</td>
+                        <td>34</td>
+                        <td>北京-丰台</td>
+                        <td>web前端</td>
+                        <td>张亮</td>
+                        <td class="status_td yellow">安全隐患</td>
+                    </tr>
+                    <tr>
+                        <td><span class="yuan">3</span></td>
+                        <td>WD-09www83</td>
+                        <td>电脑</td>
+                        <td>服务器</td>
+                        <td>DELL</td>
+                        <td class="type_td">B-2839</td>
+                        <td>win10</td>
+                        <td>2017-02-21</td>
+                        <td>34</td>
+                        <td>北京-丰台</td>
+                        <td>web前端</td>
+                        <td>张亮</td>
+                        <td class="status_td red">危险预警</td>
+                    </tr>
+                    <tr>
+                        <td><span class="yuan">4</span></td>
+                        <td>WD-jhg</td>
+                        <td>电脑</td>
+                        <td>服务器</td>
+                        <td>DELL</td>
+                        <td class="type_td">B-2839</td>
+                        <td>win10</td>
+                        <td>2017-02-21</td>
+                        <td>34</td>
+                        <td>北京-丰台</td>
+                        <td>web前端</td>
+                        <td>张亮</td>
+                        <td class="status_td red">安全隐患</td>
+                    </tr>
+                    <tr>
+                        <td><span class="yuan">5</span></td>
+                        <td>WwD-07283</td>
+                        <td>电脑</td>
+                        <td>服务器</td>
+                        <td>DELL</td>
+                        <td class="type_td">B-2839</td>
+                        <td>win10</td>
+                        <td>2017-02-21</td>
+                        <td>34</td>
+                        <td>北京-丰台</td>
+                        <td>web前端</td>
+                        <td>张亮</td>
+                        <td class="status_td">正常</td>
+                    </tr>
+                    <tr>
+                        <td><span class="yuan">6</span></td>
+                        <td>WD-123</td>
+                        <td>电脑</td>
+                        <td>服务器</td>
+                        <td>DELL</td>
+                        <td class="type_td">B-2839</td>
+                        <td>win10</td>
+                        <td>2017-02-21</td>
+                        <td>34</td>
+                        <td>北京-丰台</td>
+                        <td>web前端</td>
+                        <td>张亮</td>
+                        <td class="status_td">正常</td>
+                    </tr>
+                    <tr>
+                        <td><span class="yuan">7</span></td>
+                        <td>WaD-83</td>
+                        <td>电脑</td>
+                        <td>服务器</td>
+                        <td>DELL</td>
+                        <td class="type_td">B-2839</td>
+                        <td>win10</td>
+                        <td>2017-02-21</td>
+                        <td>34</td>
+                        <td>北京-丰台</td>
+                        <td>web前端</td>
+                        <td>张亮</td>
+                        <td class="status_td">正常</td>
+                    </tr>
+                    <tr>
+                        <td><span class="yuan">8</span></td>
+                        <td>WD-adas</td>
+                        <td>电脑</td>
+                        <td>服务器</td>
+                        <td>DELL</td>
+                        <td class="type_td">B-2839</td>
+                        <td>win10</td>
+                        <td>2017-02-21</td>
+                        <td>34</td>
+                        <td>北京-丰台</td>
+                        <td>web前端</td>
+                        <td>张亮</td>
+                        <td class="status_td">正常</td>
+                    </tr>
+                    <tr>
+                        <td><span class="yuan">9</span></td>
+                        <td>aa-wsx</td>
+                        <td>电脑</td>
+                        <td>服务器</td>
+                        <td>DELL</td>
+                        <td class="type_td">B-2839</td>
+                        <td>win10</td>
+                        <td>2017-02-21</td>
+                        <td>34</td>
+                        <td>北京-丰台</td>
+                        <td>web前端</td>
+                        <td>张亮</td>
+                        <td class="status_td">正常</td>
+                    </tr>
+                    <tr>
+                        <td><span class="yuan">10</span></td>
+                        <td>WD-lkjhg</td>
+                        <td>电脑</td>
+                        <td>服务器</td>
+                        <td>DELL</td>
+                        <td class="type_td">B-2839</td>
+                        <td>win10</td>
+                        <td>2017-02-21</td>
+                        <td>34</td>
+                        <td>北京-丰台</td>
+                        <td>web前端</td>
+                        <td>张亮</td>
+                        <td class="status_td">正常</td>
+                    </tr>
+                    <tr>
+                        <td><span class="yuan">11</span></td>
+                        <td>WD-7654</td>
+                        <td>电脑</td>
+                        <td>服务器</td>
+                        <td>DELL</td>
+                        <td class="type_td">B-2839</td>
+                        <td>win10</td>
+                        <td>2017-02-21</td>
+                        <td>34</td>
+                        <td>北京-丰台</td>
+                        <td>web前端</td>
+                        <td>张亮</td>
+                        <td class="status_td">正常</td>
+                    </tr>
+                    <tr>
+                        <td><span class="yuan">12</span></td>
+                        <td>WD-12345</td>
+                        <td>电脑</td>
+                        <td>服务器</td>
+                        <td>DELL</td>
+                        <td class="type_td">B-2839</td>
+                        <td>win10</td>
+                        <td>2017-02-21</td>
+                        <td>34</td>
+                        <td>北京-丰台</td>
+                        <td>web前端</td>
+                        <td>张亮</td>
+                        <td class="status_td">正常</td>
+                    </tr>
+                    <tr>
+                        <td><span class="yuan">13</span></td>
+                        <td>WD-0aa283</td>
+                        <td>电脑</td>
+                        <td>服务器</td>
+                        <td>DELL</td>
+                        <td class="type_td">B-2839</td>
+                        <td>win10</td>
+                        <td>2017-02-21</td>
+                        <td>34</td>
+                        <td>北京-丰台</td>
+                        <td>web前端</td>
+                        <td>张亮</td>
+                        <td class="status_td">正常</td>
+                    </tr>
+                    <tr>
+                        <td><span class="yuan">14</span></td>
+                        <td>WD-876</td>
+                        <td>电脑</td>
+                        <td>服务器</td>
+                        <td>DELL</td>
+                        <td class="type_td">B-2839</td>
+                        <td>win10</td>
+                        <td>2017-02-21</td>
+                        <td>34</td>
+                        <td>北京-丰台</td>
+                        <td>web前端</td>
+                        <td>张亮</td>
+                        <td class="status_td yellow">安全隐患</td>
+                    </tr>
+                    <tr>
+                        <td><span class="yuan">15</span></td>
+                        <td>WD-hgf</td>
+                        <td>电脑</td>
+                        <td>服务器</td>
+                        <td>DELL</td>
+                        <td class="type_td">B-2839</td>
+                        <td>win10</td>
+                        <td>2017-02-21</td>
+                        <td>34</td>
+                        <td>北京-丰台</td>
+                        <td>web前端</td>
+                        <td>张亮</td>
+                        <td class="status_td red">无限预警</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="content_page">
+            <span>< 上一页</span><span class="active">1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>下一页 ></span>
+            <div class="page_div">共7页，到第<span>7</span>页</div>
+            <a>确定</a>
+        </div>
+        <div class="type_show">
+            <div class="type_show_title">资产编号：<span class="bianhao">WD-0987283</span><b class="close">X</b></div>
+            <div class="type_show_content1">
+                <div class="blue">基本信息</div>
+                <div class="content_div">
+                    <div class="d d1">
+                        <div>
+                            <div>资产编号：WD-0987283</div>
+                            <div>序列号：GDHSLDHFFLE;JFJDLDS;SK</div>
+                        </div>
+                        <div>
+                            <div>购买日期：2016-09-21</div>
+                            <div>维保周期：3年</div>
+                        </div>
+                    </div>
+                    <div class="d d2">
+                        <div>
+                            <div>资产状态：</div>
+                            <div>资产类型：服务器</div>
+                        </div>
+                        <div>
+                            <div>到期时间：2016-09-21</div>
+                            <div>存放地点：西单</div>
+                        </div>
+                    </div>
+                    <div class="d d3">
+                        <div>
+                            <div>节点品牌：戴尔（DELL）</div>
+                            <div>供应商：DELL通用服务器2U</div>
+                        </div>
+                        <div>
+                            <div>归属机柜：04</div>
+                            <div>使用部门：网络部</div>
+                        </div>
+                    </div>
+                    <div class="d d4">
+                        <div>
+                            <div>供应商：DELL供应商</div>
+                            <div>归属合同：</div>
+                        </div>
+                        <div>
+                            <div>管理员：admin</div>
+                            <div>业务归属：手机游戏</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="type_show_content1">
+                <div class="blue">资产成本</div>
+                <div class="content_div">
+                    <div class="d d1">
+                        <div>
+                            <div>折旧方法：平均年限法</div>
+                            <div>初始价值：8000.00RMB ¥</div>
+                        </div>
+                    </div>
+                    <div class="d d2">
+                        <div>
+                            <div>折旧起始时间：2038-09-09</div>
+                            <div>残值率(%)：5.00</div>
+                        </div>
+                    </div>
+                    <div class="d d3">
+                        <div>
+                            <div>使用年限：3年</div>
+                            <div>当前净值：8000.00RMB ¥</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="type_show_content1">
+                <div class="blue">设备实图</div>
+                <div class="content_div img_div">
+                    <img src="img/machine.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    window.onload = function () {
+        var html = `
+            <div class="hover_status">
+                <span class="right"></span>
+                <div>时间：2017-08-09 11:22:33</div>
+                <div>内容：linux安全更新(3194063)</div>
+                <div>危险程度：中级</div>
+                <div>影响范围：远程执行代码</div>
+                <div>补丁地址：http://linux.com/sdf/12928</div>
+             </div>
+        `;
+        var tr = $('.tbd').children('tr');
+        for(let i=0;i<tr.length;i++){
+            if(i%2 == 0){
+                $(tr[i]).css('background','#162d55');
+            }
+        }
+        $('.radio').on('click',function () {
+            $('.radio').children('i').removeClass('icon_active');
+            $(this).children('i').addClass('icon_active');
+        });
+        $('.span').click(function () {
+            $('.alert_window').toggle();
+        });
+        $(".no").click(function () {
+            $('.alert_window').hide();
+        });
+        $(".yes").click(function () {
+            alert('设置成功！');
+            $('.alert_window').hide();
+        });
+        $('.status_td').mouseover(function (e) {
+            console.log(e.clientY)
+            $(this).append(html);
+            if (e.clientY >620){
+                console.log($(this).children('.hover_status'))
+                $(this).children('.hover_status').css('top','-115px');
+                $('.right').css('top','130px');
+            }else {
+                $(this).children('.hover_status').css('top','10px')
+            }
+            $(this).children('.hover_status').show();
+
+        });
+        $('.status_td').mouseout(function () {
+            $(this).children('.hover_status').hide().remove();
+
+        });
+        $('.type_td').click(function () {
+            var sibling = $(this).siblings();
+            var text = $(sibling[1]).text();
+            $('.bianhao').text(text);
+            $('.type_show').show();
+        });
+        $('.close').click(function () {
+            $('.type_show').hide();
+        });
+    }
+</script>
+</body>
+</html>

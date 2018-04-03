@@ -1,0 +1,3091 @@
+{
+  "payment_all": {
+    "success": 2192,
+    "failed": 15
+  },
+  "payment_stats": [
+    {
+      "name": "枣庄",
+      "success": 60,
+      "failed": 0
+    },
+    {
+      "name": "崇州",
+      "success": 44,
+      "failed": 0
+    },
+    {
+      "name": "济南魏家庄",
+      "success": 40,
+      "failed": 0
+    },
+    {
+      "name": "亳州",
+      "success": 39,
+      "failed": 0
+    },
+    {
+      "name": "德阳",
+      "success": 38,
+      "failed": 0
+    },
+    {
+      "name": "廊坊",
+      "success": 38,
+      "failed": 0
+    },
+    {
+      "name": "哈尔滨万达茂",
+      "success": 37,
+      "failed": 0
+    },
+    {
+      "name": "诸暨",
+      "success": 36,
+      "failed": 0
+    },
+    {
+      "name": "通辽",
+      "success": 34,
+      "failed": 0
+    },
+    {
+      "name": "清远",
+      "success": 34,
+      "failed": 0
+    },
+    {
+      "name": "宜昌",
+      "success": 33,
+      "failed": 0
+    },
+    {
+      "name": "昆明CBD",
+      "success": 33,
+      "failed": 0
+    },
+    {
+      "name": "辽阳",
+      "success": 32,
+      "failed": 0
+    },
+    {
+      "name": "雅安",
+      "success": 31,
+      "failed": 0
+    },
+    {
+      "name": "大连庄河",
+      "success": 30,
+      "failed": 0
+    },
+    {
+      "name": "汉街",
+      "success": 30,
+      "failed": 0
+    },
+    {
+      "name": "桂林高新",
+      "success": 30,
+      "failed": 0
+    },
+    {
+      "name": "海口秀英",
+      "success": 29,
+      "failed": 0
+    },
+    {
+      "name": "南京江宁",
+      "success": 29,
+      "failed": 0
+    },
+    {
+      "name": "东莞东城",
+      "success": 28,
+      "failed": 0
+    },
+    {
+      "name": "太原龙湖",
+      "success": 28,
+      "failed": 0
+    },
+    {
+      "name": "义乌",
+      "success": 26,
+      "failed": 0
+    },
+    {
+      "name": "连云港",
+      "success": 26,
+      "failed": 0
+    },
+    {
+      "name": "九江",
+      "success": 25,
+      "failed": 0
+    },
+    {
+      "name": "襄阳",
+      "success": 25,
+      "failed": 0
+    },
+    {
+      "name": "湖州",
+      "success": 22,
+      "failed": 0
+    },
+    {
+      "name": "阜阳颍泉",
+      "success": 22,
+      "failed": 0
+    },
+    {
+      "name": "乌鲁木齐经开",
+      "success": 22,
+      "failed": 0
+    },
+    {
+      "name": "盐城",
+      "success": 21,
+      "failed": 0
+    },
+    {
+      "name": "芜湖",
+      "success": 21,
+      "failed": 0
+    },
+    {
+      "name": "西双版纳",
+      "success": 20,
+      "failed": 0
+    },
+    {
+      "name": "烟台开发区",
+      "success": 20,
+      "failed": 0
+    },
+    {
+      "name": "常德",
+      "success": 20,
+      "failed": 0
+    },
+    {
+      "name": "南宁江南",
+      "success": 20,
+      "failed": 0
+    },
+    {
+      "name": "北京丰台",
+      "success": 20,
+      "failed": 0
+    },
+    {
+      "name": "乐山",
+      "success": 20,
+      "failed": 0
+    },
+    {
+      "name": "北海",
+      "success": 20,
+      "failed": 0
+    },
+    {
+      "name": "重庆万州",
+      "success": 19,
+      "failed": 0
+    },
+    {
+      "name": "黄石",
+      "success": 19,
+      "failed": 0
+    },
+    {
+      "name": "武汉菱角湖",
+      "success": 19,
+      "failed": 0
+    },
+    {
+      "name": "益阳",
+      "success": 19,
+      "failed": 0
+    },
+    {
+      "name": "合肥万达茂",
+      "success": 19,
+      "failed": 0
+    },
+    {
+      "name": "六安",
+      "success": 19,
+      "failed": 0
+    },
+    {
+      "name": "常州新北",
+      "success": 18,
+      "failed": 0
+    },
+    {
+      "name": "内江",
+      "success": 18,
+      "failed": 0
+    },
+    {
+      "name": "北京槐房",
+      "success": 18,
+      "failed": 0
+    },
+    {
+      "name": "南昌西湖",
+      "success": 18,
+      "failed": 0
+    },
+    {
+      "name": "徐州铜山",
+      "success": 17,
+      "failed": 0
+    },
+    {
+      "name": "哈尔滨哈西",
+      "success": 17,
+      "failed": 0
+    },
+    {
+      "name": "西宁",
+      "success": 17,
+      "failed": 0
+    },
+    {
+      "name": "东营",
+      "success": 17,
+      "failed": 0
+    },
+    {
+      "name": "泰安",
+      "success": 16,
+      "failed": 0
+    },
+    {
+      "name": "包头青山",
+      "success": 16,
+      "failed": 0
+    },
+    {
+      "name": "成都蜀都",
+      "success": 16,
+      "failed": 0
+    },
+    {
+      "name": "广州白云",
+      "success": 16,
+      "failed": 0
+    },
+    {
+      "name": "宿州",
+      "success": 16,
+      "failed": 0
+    },
+    {
+      "name": "鸡西",
+      "success": 15,
+      "failed": 0
+    },
+    {
+      "name": "大连经开",
+      "success": 15,
+      "failed": 0
+    },
+    {
+      "name": "三明",
+      "success": 15,
+      "failed": 0
+    },
+    {
+      "name": "烟台芝罘",
+      "success": 14,
+      "failed": 0
+    },
+    {
+      "name": "东莞厚街",
+      "success": 14,
+      "failed": 0
+    },
+    {
+      "name": "上饶",
+      "success": 14,
+      "failed": 0
+    },
+    {
+      "name": "银川金凤",
+      "success": 14,
+      "failed": 0
+    },
+    {
+      "name": "宁波鄞州",
+      "success": 14,
+      "failed": 0
+    },
+    {
+      "name": "洛阳",
+      "success": 14,
+      "failed": 0
+    },
+    {
+      "name": "天津河东",
+      "success": 14,
+      "failed": 0
+    },
+    {
+      "name": "北京通州",
+      "success": 13,
+      "failed": 0
+    },
+    {
+      "name": "镇江",
+      "success": 13,
+      "failed": 0
+    },
+    {
+      "name": "安阳",
+      "success": 13,
+      "failed": 0
+    },
+    {
+      "name": "大连普兰店",
+      "success": 13,
+      "failed": 0
+    },
+    {
+      "name": "晋江",
+      "success": 13,
+      "failed": 0
+    },
+    {
+      "name": "朝阳",
+      "success": 13,
+      "failed": 0
+    },
+    {
+      "name": "宜春",
+      "success": 13,
+      "failed": 0
+    },
+    {
+      "name": "莆田",
+      "success": 13,
+      "failed": 0
+    },
+    {
+      "name": "南通港闸",
+      "success": 13,
+      "failed": 0
+    },
+    {
+      "name": "济南高新",
+      "success": 12,
+      "failed": 0
+    },
+    {
+      "name": "上海金山",
+      "success": 12,
+      "failed": 0
+    },
+    {
+      "name": "长沙开福",
+      "success": 12,
+      "failed": 3
+    },
+    {
+      "name": "淮安",
+      "success": 12,
+      "failed": 0
+    },
+    {
+      "name": "营口",
+      "success": 12,
+      "failed": 0
+    },
+    {
+      "name": "三门峡",
+      "success": 11,
+      "failed": 0
+    },
+    {
+      "name": "唐山路南",
+      "success": 11,
+      "failed": 0
+    },
+    {
+      "name": "重庆南坪",
+      "success": 11,
+      "failed": 0
+    },
+    {
+      "name": "广州萝岗",
+      "success": 10,
+      "failed": 0
+    },
+    {
+      "name": "宁波江北",
+      "success": 10,
+      "failed": 0
+    },
+    {
+      "name": "广元",
+      "success": 10,
+      "failed": 0
+    },
+    {
+      "name": "佳木斯",
+      "success": 10,
+      "failed": 0
+    },
+    {
+      "name": "苏州吴中",
+      "success": 10,
+      "failed": 0
+    },
+    {
+      "name": "齐齐哈尔",
+      "success": 10,
+      "failed": 0
+    },
+    {
+      "name": "常熟",
+      "success": 9,
+      "failed": 0
+    },
+    {
+      "name": "成都青羊",
+      "success": 9,
+      "failed": 0
+    },
+    {
+      "name": "四平",
+      "success": 9,
+      "failed": 0
+    },
+    {
+      "name": "青岛CBD",
+      "success": 9,
+      "failed": 2
+    },
+    {
+      "name": "柳州柳南",
+      "success": 9,
+      "failed": 0
+    },
+    {
+      "name": "宁德",
+      "success": 9,
+      "failed": 0
+    },
+    {
+      "name": "抚州",
+      "success": 9,
+      "failed": 0
+    },
+    {
+      "name": "沈阳北一路",
+      "success": 9,
+      "failed": 0
+    },
+    {
+      "name": "牡丹江",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "name": "苏州平江",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "name": "广州南沙",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "name": "上海周浦",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "name": "乌海",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "name": "郑州二七",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "name": "阜阳颍州",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "name": "遂宁",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "name": "重庆永川",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "name": "沈阳奥体",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "name": "马鞍山",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "name": "长春红旗街",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "name": "十堰",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "name": "柳州城中",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "name": "成都双流",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "name": "北京石景山",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "name": "绍兴上虞",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "name": "合肥瑶海",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "name": "延吉",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "name": "湘潭",
+      "success": 7,
+      "failed": 0
+    },
+    {
+      "name": "广州金沙洲",
+      "success": 7,
+      "failed": 0
+    },
+    {
+      "name": "渭南",
+      "success": 7,
+      "failed": 0
+    },
+    {
+      "name": "重庆巴南",
+      "success": 7,
+      "failed": 0
+    },
+    {
+      "name": "重庆北碚",
+      "success": 7,
+      "failed": 0
+    },
+    {
+      "name": "南宁万达茂",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "name": "资阳",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "name": "台州经开",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "name": "焦作",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "name": "哈尔滨香坊",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "name": "郑州惠济",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "name": "南昌万达茂",
+      "success": 5,
+      "failed": 0
+    },
+    {
+      "name": "嘉兴",
+      "success": 5,
+      "failed": 0
+    },
+    {
+      "name": "大连高新",
+      "success": 5,
+      "failed": 0
+    },
+    {
+      "name": "江门",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "name": "沈阳铁西",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "name": "东莞虎门",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "name": "梅州",
+      "success": 4,
+      "failed": 1
+    },
+    {
+      "name": "温州龙湾",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "name": "宜兴",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "name": "盘锦",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "name": "厦门集美",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "name": "无锡滨湖",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "name": "南宁安吉",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "name": "德州",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "name": "湛江",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "name": "锦州",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "name": "佛山三水",
+      "success": 2,
+      "failed": 3
+    },
+    {
+      "name": "荆门",
+      "success": 1,
+      "failed": 2
+    },
+    {
+      "name": "昆山",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "name": "滨州",
+      "success": 1,
+      "failed": 4
+    }
+  ],
+  "pay_methods": [
+    {
+      "business_name": "安阳",
+      "pay_name": "现金",
+      "success": 10,
+      "failed": 0
+    },
+    {
+      "business_name": "安阳",
+      "pay_name": "Pos机",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "安阳",
+      "pay_name": "微信支付",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "包头青山",
+      "pay_name": "微信扫码支付",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "包头青山",
+      "pay_name": "现金",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "business_name": "包头青山",
+      "pay_name": "Pos机",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "business_name": "北海",
+      "pay_name": "现金",
+      "success": 19,
+      "failed": 0
+    },
+    {
+      "business_name": "北海",
+      "pay_name": "POS",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "北京丰台",
+      "pay_name": "现金",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "business_name": "北京丰台",
+      "pay_name": "微信",
+      "success": 12,
+      "failed": 0
+    },
+    {
+      "business_name": "北京槐房",
+      "pay_name": "微信",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "北京槐房",
+      "pay_name": "现金",
+      "success": 12,
+      "failed": 0
+    },
+    {
+      "business_name": "北京槐房",
+      "pay_name": "POS机",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "北京石景山",
+      "pay_name": "微信",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "北京石景山",
+      "pay_name": "现金",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "business_name": "北京通州",
+      "pay_name": "现在支付-微信",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "北京通州",
+      "pay_name": "现金",
+      "success": 9,
+      "failed": 0
+    },
+    {
+      "business_name": "滨州",
+      "pay_name": "现金",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "亳州",
+      "pay_name": "微信",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "亳州",
+      "pay_name": "支付宝",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "亳州",
+      "pay_name": "POS",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "亳州",
+      "pay_name": "现金",
+      "success": 35,
+      "failed": 0
+    },
+    {
+      "business_name": "长春红旗街",
+      "pay_name": "现金",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "business_name": "长春红旗街",
+      "pay_name": "支付宝支付",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "长沙开福",
+      "pay_name": "小径微信",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "长沙开福",
+      "pay_name": "小径支付宝",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "长沙开福",
+      "pay_name": "现金",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "business_name": "常德",
+      "pay_name": "现金",
+      "success": 15,
+      "failed": 0
+    },
+    {
+      "business_name": "常德",
+      "pay_name": "pos机",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "常德",
+      "pay_name": "微信支付",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "常德",
+      "pay_name": "支付宝支付",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "常熟",
+      "pay_name": "现金",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "business_name": "常熟",
+      "pay_name": "微信-旺POS",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "常州新北",
+      "pay_name": "支付宝扫码支付",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "常州新北",
+      "pay_name": "微信扫码支付",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "常州新北",
+      "pay_name": "现金",
+      "success": 11,
+      "failed": 0
+    },
+    {
+      "business_name": "常州新北",
+      "pay_name": "Pos机",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "朝阳",
+      "pay_name": "现金",
+      "success": 12,
+      "failed": 0
+    },
+    {
+      "business_name": "朝阳",
+      "pay_name": "微信",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "成都青羊",
+      "pay_name": "支付宝（旺pos)",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "成都青羊",
+      "pay_name": "现金",
+      "success": 7,
+      "failed": 0
+    },
+    {
+      "business_name": "成都蜀都",
+      "pay_name": "现金",
+      "success": 12,
+      "failed": 0
+    },
+    {
+      "business_name": "成都蜀都",
+      "pay_name": "旺POS-微信",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "成都双流",
+      "pay_name": "旺POS（支付宝）",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "成都双流",
+      "pay_name": "现金",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "business_name": "成都双流",
+      "pay_name": "旺POS（微信）",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "崇州",
+      "pay_name": "微信",
+      "success": 9,
+      "failed": 0
+    },
+    {
+      "business_name": "崇州",
+      "pay_name": "现金",
+      "success": 35,
+      "failed": 0
+    },
+    {
+      "business_name": "大连高新",
+      "pay_name": "现金",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "大连高新",
+      "pay_name": "美团-团购券",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "大连经开",
+      "pay_name": "现金",
+      "success": 12,
+      "failed": 0
+    },
+    {
+      "business_name": "大连经开",
+      "pay_name": "支付宝-小径POS",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "大连经开",
+      "pay_name": "微信-小径POS",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "大连普兰店",
+      "pay_name": "微信",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "大连普兰店",
+      "pay_name": "现金",
+      "success": 11,
+      "failed": 0
+    },
+    {
+      "business_name": "大连庄河",
+      "pay_name": "微信",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "大连庄河",
+      "pay_name": "现金",
+      "success": 27,
+      "failed": 0
+    },
+    {
+      "business_name": "德阳",
+      "pay_name": "POS刷卡",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "德阳",
+      "pay_name": "现金",
+      "success": 26,
+      "failed": 0
+    },
+    {
+      "business_name": "德阳",
+      "pay_name": "支付宝",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "德阳",
+      "pay_name": "微信",
+      "success": 7,
+      "failed": 0
+    },
+    {
+      "business_name": "德州",
+      "pay_name": "现金",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "东莞东城",
+      "pay_name": "微信",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "东莞东城",
+      "pay_name": "支付宝",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "东莞东城",
+      "pay_name": "现金",
+      "success": 19,
+      "failed": 0
+    },
+    {
+      "business_name": "东莞东城",
+      "pay_name": "Pos机",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "东莞厚街",
+      "pay_name": "现金",
+      "success": 10,
+      "failed": 0
+    },
+    {
+      "business_name": "东莞厚街",
+      "pay_name": "支付宝",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "东莞厚街",
+      "pay_name": "微信",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "东莞虎门",
+      "pay_name": "现金",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "东营",
+      "pay_name": "微信",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "东营",
+      "pay_name": "支付宝",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "东营",
+      "pay_name": "现金",
+      "success": 7,
+      "failed": 0
+    },
+    {
+      "business_name": "东营",
+      "pay_name": "Pos机",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "business_name": "佛山三水",
+      "pay_name": "现金",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "抚州",
+      "pay_name": "现金",
+      "success": 9,
+      "failed": 0
+    },
+    {
+      "business_name": "阜阳颍泉",
+      "pay_name": "现金",
+      "success": 20,
+      "failed": 0
+    },
+    {
+      "business_name": "阜阳颍泉",
+      "pay_name": "微信",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "阜阳颍州",
+      "pay_name": "现金",
+      "success": 7,
+      "failed": 0
+    },
+    {
+      "business_name": "阜阳颍州",
+      "pay_name": "Pos机",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "广元",
+      "pay_name": "现金",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "business_name": "广元",
+      "pay_name": "Pos机",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "广州白云",
+      "pay_name": "微信扫码",
+      "success": 5,
+      "failed": 0
+    },
+    {
+      "business_name": "广州白云",
+      "pay_name": "支付宝扫码",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "广州白云",
+      "pay_name": "现金",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "business_name": "广州金沙洲",
+      "pay_name": "现金",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "广州金沙洲",
+      "pay_name": "POS机",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "广州金沙洲",
+      "pay_name": "微信",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "广州萝岗",
+      "pay_name": "现金",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "广州萝岗",
+      "pay_name": "Pos机",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "广州萝岗",
+      "pay_name": "微信支付",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "广州萝岗",
+      "pay_name": "支付宝支付",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "广州南沙",
+      "pay_name": "现金",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "广州南沙",
+      "pay_name": "Pos机",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "桂林高新",
+      "pay_name": "现金",
+      "success": 17,
+      "failed": 0
+    },
+    {
+      "business_name": "桂林高新",
+      "pay_name": "Pos机",
+      "success": 5,
+      "failed": 0
+    },
+    {
+      "business_name": "桂林高新",
+      "pay_name": "微信支付",
+      "success": 5,
+      "failed": 0
+    },
+    {
+      "business_name": "桂林高新",
+      "pay_name": "支付宝",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "哈尔滨哈西",
+      "pay_name": "微信",
+      "success": 5,
+      "failed": 0
+    },
+    {
+      "business_name": "哈尔滨哈西",
+      "pay_name": "现金",
+      "success": 12,
+      "failed": 0
+    },
+    {
+      "business_name": "哈尔滨万达茂",
+      "pay_name": "现金",
+      "success": 34,
+      "failed": 0
+    },
+    {
+      "business_name": "哈尔滨万达茂",
+      "pay_name": "微信扫码支付",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "哈尔滨香坊",
+      "pay_name": "现金",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "business_name": "海口秀英",
+      "pay_name": "现金",
+      "success": 25,
+      "failed": 0
+    },
+    {
+      "business_name": "海口秀英",
+      "pay_name": "POS机",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "海口秀英",
+      "pay_name": "支付宝",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "汉街",
+      "pay_name": "现金",
+      "success": 14,
+      "failed": 0
+    },
+    {
+      "business_name": "汉街",
+      "pay_name": "Pos机",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "汉街",
+      "pay_name": "小径支付宝",
+      "success": 10,
+      "failed": 0
+    },
+    {
+      "business_name": "汉街",
+      "pay_name": "小径微信支付",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "合肥万达茂",
+      "pay_name": "现金",
+      "success": 10,
+      "failed": 0
+    },
+    {
+      "business_name": "合肥万达茂",
+      "pay_name": "pos",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "合肥万达茂",
+      "pay_name": "微信扫码支付",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "合肥万达茂",
+      "pay_name": "支付宝支付",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "business_name": "合肥瑶海",
+      "pay_name": "现金",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "合肥瑶海",
+      "pay_name": "POS机",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "合肥瑶海",
+      "pay_name": "微信支付",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "湖州",
+      "pay_name": "支付宝",
+      "success": 10,
+      "failed": 0
+    },
+    {
+      "business_name": "湖州",
+      "pay_name": "现金",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "business_name": "湖州",
+      "pay_name": "微信",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "淮安",
+      "pay_name": "支付宝",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "淮安",
+      "pay_name": "微信支付",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "淮安",
+      "pay_name": "现金",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "business_name": "淮安",
+      "pay_name": "Pos机",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "黄石",
+      "pay_name": "现金",
+      "success": 11,
+      "failed": 0
+    },
+    {
+      "business_name": "黄石",
+      "pay_name": "Pos机",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "黄石",
+      "pay_name": "微信支付",
+      "success": 5,
+      "failed": 0
+    },
+    {
+      "business_name": "黄石",
+      "pay_name": "支付宝支付",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "鸡西",
+      "pay_name": "POS",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "鸡西",
+      "pay_name": "现金",
+      "success": 14,
+      "failed": 0
+    },
+    {
+      "business_name": "济南高新",
+      "pay_name": "现金",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "business_name": "济南高新",
+      "pay_name": "POS",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "济南高新",
+      "pay_name": "微信",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "济南高新",
+      "pay_name": "支付宝",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "济南魏家庄",
+      "pay_name": "微信支付",
+      "success": 40,
+      "failed": 0
+    },
+    {
+      "business_name": "佳木斯",
+      "pay_name": "微信",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "佳木斯",
+      "pay_name": "现金",
+      "success": 9,
+      "failed": 0
+    },
+    {
+      "business_name": "嘉兴",
+      "pay_name": "微信支付",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "嘉兴",
+      "pay_name": "支付宝支付",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "江门",
+      "pay_name": "现金",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "焦作",
+      "pay_name": "现金",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "焦作",
+      "pay_name": "支付宝",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "焦作",
+      "pay_name": "pos",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "锦州",
+      "pay_name": "现金",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "晋江",
+      "pay_name": "现金",
+      "success": 9,
+      "failed": 0
+    },
+    {
+      "business_name": "晋江",
+      "pay_name": "Pos机",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "晋江",
+      "pay_name": "微信",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "晋江",
+      "pay_name": "支付宝",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "荆门",
+      "pay_name": "POS机",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "九江",
+      "pay_name": "POS款",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "九江",
+      "pay_name": "微信支付旺POS",
+      "success": 11,
+      "failed": 0
+    },
+    {
+      "business_name": "九江",
+      "pay_name": "支付宝旺POS",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "九江",
+      "pay_name": "现金",
+      "success": 9,
+      "failed": 0
+    },
+    {
+      "business_name": "昆明CBD",
+      "pay_name": "微信",
+      "success": 5,
+      "failed": 0
+    },
+    {
+      "business_name": "昆明CBD",
+      "pay_name": "支付宝",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "昆明CBD",
+      "pay_name": "现金",
+      "success": 21,
+      "failed": 0
+    },
+    {
+      "business_name": "昆明CBD",
+      "pay_name": "Pos机",
+      "success": 5,
+      "failed": 0
+    },
+    {
+      "business_name": "昆山",
+      "pay_name": "微信",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "廊坊",
+      "pay_name": "其他",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "廊坊",
+      "pay_name": "微信",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "廊坊",
+      "pay_name": "支付宝",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "廊坊",
+      "pay_name": "POS机",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "廊坊",
+      "pay_name": "现金",
+      "success": 25,
+      "failed": 0
+    },
+    {
+      "business_name": "乐山",
+      "pay_name": "微信-小径POS",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "乐山",
+      "pay_name": "支付宝-小径POS",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "乐山",
+      "pay_name": "POS机",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "乐山",
+      "pay_name": "现金",
+      "success": 13,
+      "failed": 0
+    },
+    {
+      "business_name": "连云港",
+      "pay_name": "现金",
+      "success": 12,
+      "failed": 0
+    },
+    {
+      "business_name": "连云港",
+      "pay_name": "微信",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "连云港",
+      "pay_name": "支付宝",
+      "success": 10,
+      "failed": 0
+    },
+    {
+      "business_name": "辽阳",
+      "pay_name": "现金",
+      "success": 31,
+      "failed": 0
+    },
+    {
+      "business_name": "辽阳",
+      "pay_name": "微信",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "柳州城中",
+      "pay_name": "现金",
+      "success": 5,
+      "failed": 0
+    },
+    {
+      "business_name": "柳州城中",
+      "pay_name": "Pos机",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "柳州柳南",
+      "pay_name": "现金",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "business_name": "柳州柳南",
+      "pay_name": "支付宝",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "六安",
+      "pay_name": "微信",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "六安",
+      "pay_name": "团购券",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "六安",
+      "pay_name": "现金",
+      "success": 15,
+      "failed": 0
+    },
+    {
+      "business_name": "洛阳",
+      "pay_name": "支付宝支付",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "洛阳",
+      "pay_name": "微信支付",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "洛阳",
+      "pay_name": "现金",
+      "success": 9,
+      "failed": 0
+    },
+    {
+      "business_name": "洛阳",
+      "pay_name": "Pos机",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "马鞍山",
+      "pay_name": "现金",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "business_name": "马鞍山",
+      "pay_name": "Pos机",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "马鞍山",
+      "pay_name": "支付宝",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "梅州",
+      "pay_name": "现金",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "梅州",
+      "pay_name": "POS机",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "梅州",
+      "pay_name": "微信支付",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "牡丹江",
+      "pay_name": "现金",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "business_name": "内江",
+      "pay_name": "现金",
+      "success": 16,
+      "failed": 0
+    },
+    {
+      "business_name": "内江",
+      "pay_name": "Pos机",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "南昌万达茂",
+      "pay_name": "微信",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "南昌万达茂",
+      "pay_name": "现金",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "南昌西湖",
+      "pay_name": "微信支付",
+      "success": 10,
+      "failed": 0
+    },
+    {
+      "business_name": "南昌西湖",
+      "pay_name": "现金",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "business_name": "南京江宁",
+      "pay_name": "现金",
+      "success": 16,
+      "failed": 0
+    },
+    {
+      "business_name": "南京江宁",
+      "pay_name": "POS",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "南京江宁",
+      "pay_name": "支付宝",
+      "success": 7,
+      "failed": 0
+    },
+    {
+      "business_name": "南京江宁",
+      "pay_name": "微信",
+      "success": 5,
+      "failed": 0
+    },
+    {
+      "business_name": "南宁安吉",
+      "pay_name": "微信",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "南宁安吉",
+      "pay_name": "支付宝",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "南宁江南",
+      "pay_name": "现金",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "business_name": "南宁江南",
+      "pay_name": "银行POS",
+      "success": 7,
+      "failed": 0
+    },
+    {
+      "business_name": "南宁江南",
+      "pay_name": "微信",
+      "success": 5,
+      "failed": 0
+    },
+    {
+      "business_name": "南宁江南",
+      "pay_name": "支付宝",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "南宁万达茂",
+      "pay_name": "微信",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "南宁万达茂",
+      "pay_name": "现金",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "南通港闸",
+      "pay_name": "旺POS微信",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "南通港闸",
+      "pay_name": "旺POS支付宝",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "南通港闸",
+      "pay_name": "现金",
+      "success": 9,
+      "failed": 0
+    },
+    {
+      "business_name": "南通港闸",
+      "pay_name": "Pos机",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "宁波江北",
+      "pay_name": "现金",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "宁波江北",
+      "pay_name": "微信支付",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "宁波江北",
+      "pay_name": "支付宝支付",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "宁波鄞州",
+      "pay_name": "现金",
+      "success": 9,
+      "failed": 0
+    },
+    {
+      "business_name": "宁波鄞州",
+      "pay_name": "Pos机",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "宁波鄞州",
+      "pay_name": "支付宝条码支付",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "宁波鄞州",
+      "pay_name": "微信扫码支付",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "宁德",
+      "pay_name": "POS机",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "宁德",
+      "pay_name": "现金",
+      "success": 5,
+      "failed": 0
+    },
+    {
+      "business_name": "盘锦",
+      "pay_name": "现金支付",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "盘锦",
+      "pay_name": "POS",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "莆田",
+      "pay_name": "支付宝-旺POS",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "莆田",
+      "pay_name": "微信-旺POS",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "business_name": "莆田",
+      "pay_name": "现金",
+      "success": 5,
+      "failed": 0
+    },
+    {
+      "business_name": "齐齐哈尔",
+      "pay_name": "Pos机",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "齐齐哈尔",
+      "pay_name": "现金",
+      "success": 9,
+      "failed": 0
+    },
+    {
+      "business_name": "青岛CBD",
+      "pay_name": "现金",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "青岛CBD",
+      "pay_name": "POS",
+      "success": 5,
+      "failed": 0
+    },
+    {
+      "business_name": "青岛CBD",
+      "pay_name": "支付宝",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "清远",
+      "pay_name": "现金",
+      "success": 18,
+      "failed": 0
+    },
+    {
+      "business_name": "清远",
+      "pay_name": "微信",
+      "success": 12,
+      "failed": 0
+    },
+    {
+      "business_name": "清远",
+      "pay_name": "POS机",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "清远",
+      "pay_name": "飞凡",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "三门峡",
+      "pay_name": "支付宝",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "三门峡",
+      "pay_name": "Pos机",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "三门峡",
+      "pay_name": "现金",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "business_name": "三明",
+      "pay_name": "现金",
+      "success": 11,
+      "failed": 0
+    },
+    {
+      "business_name": "三明",
+      "pay_name": "微信",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "三明",
+      "pay_name": "支付宝",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "上海金山",
+      "pay_name": "支付宝-旺POS",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "上海金山",
+      "pay_name": "微信-旺POS",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "上海金山",
+      "pay_name": "现金",
+      "success": 9,
+      "failed": 0
+    },
+    {
+      "business_name": "上海周浦",
+      "pay_name": "现金",
+      "success": 8,
+      "failed": 0
+    },
+    {
+      "business_name": "上饶",
+      "pay_name": "POS",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "上饶",
+      "pay_name": "微信收款",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "上饶",
+      "pay_name": "现金",
+      "success": 12,
+      "failed": 0
+    },
+    {
+      "business_name": "绍兴上虞",
+      "pay_name": "现金",
+      "success": 5,
+      "failed": 0
+    },
+    {
+      "business_name": "绍兴上虞",
+      "pay_name": "微信",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "绍兴上虞",
+      "pay_name": "支付宝",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "沈阳奥体",
+      "pay_name": "微信-小径",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "沈阳奥体",
+      "pay_name": "现金",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "沈阳北一路",
+      "pay_name": "现金",
+      "success": 7,
+      "failed": 0
+    },
+    {
+      "business_name": "沈阳北一路",
+      "pay_name": "微信支付",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "沈阳铁西",
+      "pay_name": "现金",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "沈阳铁西",
+      "pay_name": "微信",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "十堰",
+      "pay_name": "支付宝",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "十堰",
+      "pay_name": "现金",
+      "success": 7,
+      "failed": 0
+    },
+    {
+      "business_name": "四平",
+      "pay_name": "现金",
+      "success": 7,
+      "failed": 0
+    },
+    {
+      "business_name": "四平",
+      "pay_name": "微信扫码",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "苏州平江",
+      "pay_name": "现金",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "苏州平江",
+      "pay_name": "支付宝",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "苏州吴中",
+      "pay_name": "微信扫码支付",
+      "success": 7,
+      "failed": 0
+    },
+    {
+      "business_name": "苏州吴中",
+      "pay_name": "现金",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "宿州",
+      "pay_name": "POS",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "宿州",
+      "pay_name": "现金",
+      "success": 12,
+      "failed": 0
+    },
+    {
+      "business_name": "宿州",
+      "pay_name": "微信支付",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "遂宁",
+      "pay_name": "微信支付",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "遂宁",
+      "pay_name": "现金",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "business_name": "台州经开",
+      "pay_name": "支付宝",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "台州经开",
+      "pay_name": "微信",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "台州经开",
+      "pay_name": "现金",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "太原龙湖",
+      "pay_name": "现金",
+      "success": 13,
+      "failed": 0
+    },
+    {
+      "business_name": "太原龙湖",
+      "pay_name": "Pos机",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "business_name": "太原龙湖",
+      "pay_name": "团购券",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "太原龙湖",
+      "pay_name": "支付宝",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "太原龙湖",
+      "pay_name": "微信",
+      "success": 7,
+      "failed": 0
+    },
+    {
+      "business_name": "泰安",
+      "pay_name": "微信支付",
+      "success": 7,
+      "failed": 0
+    },
+    {
+      "business_name": "泰安",
+      "pay_name": "支付宝支付",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "泰安",
+      "pay_name": "现金",
+      "success": 7,
+      "failed": 0
+    },
+    {
+      "business_name": "唐山路南",
+      "pay_name": "现金",
+      "success": 7,
+      "failed": 0
+    },
+    {
+      "business_name": "唐山路南",
+      "pay_name": "Pos机",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "唐山路南",
+      "pay_name": "微信总部",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "唐山路南",
+      "pay_name": "支付宝总部",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "天津河东",
+      "pay_name": "POS",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "天津河东",
+      "pay_name": "现金",
+      "success": 11,
+      "failed": 0
+    },
+    {
+      "business_name": "通辽",
+      "pay_name": "POS机",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "通辽",
+      "pay_name": "现金",
+      "success": 31,
+      "failed": 0
+    },
+    {
+      "business_name": "通辽",
+      "pay_name": "微信",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "渭南",
+      "pay_name": "现金",
+      "success": 5,
+      "failed": 0
+    },
+    {
+      "business_name": "渭南",
+      "pay_name": "微信支付",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "温州龙湾",
+      "pay_name": "现金",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "温州龙湾",
+      "pay_name": "微信",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "乌海",
+      "pay_name": "微信支付",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "乌海",
+      "pay_name": "支付宝支付",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "乌海",
+      "pay_name": "现金",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "乌鲁木齐经开",
+      "pay_name": "现金",
+      "success": 15,
+      "failed": 0
+    },
+    {
+      "business_name": "乌鲁木齐经开",
+      "pay_name": "pos刷卡",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "乌鲁木齐经开",
+      "pay_name": "微信",
+      "success": 5,
+      "failed": 0
+    },
+    {
+      "business_name": "乌鲁木齐经开",
+      "pay_name": "支付宝",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "无锡滨湖",
+      "pay_name": "微信",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "无锡滨湖",
+      "pay_name": "现金",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "芜湖",
+      "pay_name": "微信支付",
+      "success": 7,
+      "failed": 0
+    },
+    {
+      "business_name": "芜湖",
+      "pay_name": "现金",
+      "success": 14,
+      "failed": 0
+    },
+    {
+      "business_name": "武汉菱角湖",
+      "pay_name": "现金",
+      "success": 11,
+      "failed": 0
+    },
+    {
+      "business_name": "武汉菱角湖",
+      "pay_name": "POS",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "武汉菱角湖",
+      "pay_name": "支付宝",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "武汉菱角湖",
+      "pay_name": "微信",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "西宁",
+      "pay_name": "微信",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "西宁",
+      "pay_name": "现金",
+      "success": 14,
+      "failed": 0
+    },
+    {
+      "business_name": "西双版纳",
+      "pay_name": "现金",
+      "success": 20,
+      "failed": 0
+    },
+    {
+      "business_name": "厦门集美",
+      "pay_name": "支付宝",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "厦门集美",
+      "pay_name": "现金",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "湘潭",
+      "pay_name": "现金",
+      "success": 5,
+      "failed": 0
+    },
+    {
+      "business_name": "湘潭",
+      "pay_name": "微信旺POS支付",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "襄阳",
+      "pay_name": "现金",
+      "success": 13,
+      "failed": 0
+    },
+    {
+      "business_name": "襄阳",
+      "pay_name": "Pos机",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "襄阳",
+      "pay_name": "微信支付",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "business_name": "襄阳",
+      "pay_name": "支付宝",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "徐州铜山",
+      "pay_name": "现金",
+      "success": 13,
+      "failed": 0
+    },
+    {
+      "business_name": "徐州铜山",
+      "pay_name": "POS机",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "徐州铜山",
+      "pay_name": "支付宝-小径POS",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "徐州铜山",
+      "pay_name": "支付宝-旺POS",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "雅安",
+      "pay_name": "旺POS",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "雅安",
+      "pay_name": "现金",
+      "success": 27,
+      "failed": 0
+    },
+    {
+      "business_name": "烟台开发区",
+      "pay_name": "现金",
+      "success": 12,
+      "failed": 0
+    },
+    {
+      "business_name": "烟台开发区",
+      "pay_name": "POS",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "烟台开发区",
+      "pay_name": "微信",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "烟台开发区",
+      "pay_name": "支付宝",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "烟台芝罘",
+      "pay_name": "现金",
+      "success": 12,
+      "failed": 0
+    },
+    {
+      "business_name": "烟台芝罘",
+      "pay_name": "微信支付",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "烟台芝罘",
+      "pay_name": "支付宝支付",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "延吉",
+      "pay_name": "POS机刷卡",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "延吉",
+      "pay_name": "微信支付",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "延吉",
+      "pay_name": "现金",
+      "success": 5,
+      "failed": 0
+    },
+    {
+      "business_name": "盐城",
+      "pay_name": "现金",
+      "success": 11,
+      "failed": 0
+    },
+    {
+      "business_name": "盐城",
+      "pay_name": "微信支付",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "business_name": "盐城",
+      "pay_name": "支付宝",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "宜昌",
+      "pay_name": "现金",
+      "success": 23,
+      "failed": 0
+    },
+    {
+      "business_name": "宜昌",
+      "pay_name": "微信支付",
+      "success": 9,
+      "failed": 0
+    },
+    {
+      "business_name": "宜昌",
+      "pay_name": "支付宝支付",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "宜春",
+      "pay_name": "支付宝支付",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "宜春",
+      "pay_name": "现金支付",
+      "success": 11,
+      "failed": 0
+    },
+    {
+      "business_name": "宜兴",
+      "pay_name": "支付宝-小径POS和旺POS",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "宜兴",
+      "pay_name": "现金",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "义乌",
+      "pay_name": "现金",
+      "success": 20,
+      "failed": 0
+    },
+    {
+      "business_name": "义乌",
+      "pay_name": "pos",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "义乌",
+      "pay_name": "微信扫码支付",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "益阳",
+      "pay_name": "微信",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "益阳",
+      "pay_name": "现金",
+      "success": 15,
+      "failed": 0
+    },
+    {
+      "business_name": "银川金凤",
+      "pay_name": "微信支付",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "银川金凤",
+      "pay_name": "现金",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "business_name": "银川金凤",
+      "pay_name": "Pos机",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "营口",
+      "pay_name": "现金",
+      "success": 11,
+      "failed": 0
+    },
+    {
+      "business_name": "营口",
+      "pay_name": "微信支付",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "枣庄",
+      "pay_name": "现金",
+      "success": 34,
+      "failed": 0
+    },
+    {
+      "business_name": "枣庄",
+      "pay_name": "飞凡支付",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "枣庄",
+      "pay_name": "POS刷卡",
+      "success": 25,
+      "failed": 0
+    },
+    {
+      "business_name": "湛江",
+      "pay_name": "现金",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "湛江",
+      "pay_name": "POS支付",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "湛江",
+      "pay_name": "微信",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "镇江",
+      "pay_name": "现金",
+      "success": 10,
+      "failed": 0
+    },
+    {
+      "business_name": "镇江",
+      "pay_name": "微信-旺POS",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "镇江",
+      "pay_name": "微信-小径POS",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "镇江",
+      "pay_name": "支付宝-小径POS",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "郑州二七",
+      "pay_name": "现金",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "郑州二七",
+      "pay_name": "Pos机",
+      "success": 3,
+      "failed": 0
+    },
+    {
+      "business_name": "郑州二七",
+      "pay_name": "支付宝",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "郑州惠济",
+      "pay_name": "现金",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "郑州惠济",
+      "pay_name": "pos机",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "郑州惠济",
+      "pay_name": "支付宝",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "重庆巴南",
+      "pay_name": "微信",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "重庆巴南",
+      "pay_name": "现金",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "重庆巴南",
+      "pay_name": "支付宝",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "重庆北碚",
+      "pay_name": "微信-旺POS",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "重庆北碚",
+      "pay_name": "现金",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "business_name": "重庆南坪",
+      "pay_name": "现金",
+      "success": 9,
+      "failed": 0
+    },
+    {
+      "business_name": "重庆南坪",
+      "pay_name": "Pos机",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "重庆万州",
+      "pay_name": "现金",
+      "success": 13,
+      "failed": 0
+    },
+    {
+      "business_name": "重庆万州",
+      "pay_name": "Pos机",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "重庆万州",
+      "pay_name": "旺POS-微信",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "重庆永川",
+      "pay_name": "现金",
+      "success": 6,
+      "failed": 0
+    },
+    {
+      "business_name": "重庆永川",
+      "pay_name": "POS",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "重庆永川",
+      "pay_name": "支付宝",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "诸暨",
+      "pay_name": "现金",
+      "success": 23,
+      "failed": 0
+    },
+    {
+      "business_name": "诸暨",
+      "pay_name": "支付宝",
+      "success": 4,
+      "failed": 0
+    },
+    {
+      "business_name": "诸暨",
+      "pay_name": "微信",
+      "success": 9,
+      "failed": 0
+    },
+    {
+      "business_name": "资阳",
+      "pay_name": "POS刷卡",
+      "success": 2,
+      "failed": 0
+    },
+    {
+      "business_name": "资阳",
+      "pay_name": "微信支付",
+      "success": 1,
+      "failed": 0
+    },
+    {
+      "business_name": "资阳",
+      "pay_name": "现金",
+      "success": 3,
+      "failed": 0
+    }
+  ]
+}
